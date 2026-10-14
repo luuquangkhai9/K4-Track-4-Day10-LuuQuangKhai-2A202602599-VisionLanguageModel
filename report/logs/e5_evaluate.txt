@@ -1,0 +1,156 @@
+
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/713 [00:00<08:30,  1.39it/s]
+Loading weights:   0%|          | 3/713 [00:00<02:40,  4.42it/s]
+Loading weights:   1%|          | 8/713 [00:00<00:54, 13.00it/s]
+Loading weights:   2%|▏         | 15/713 [00:01<00:30, 23.11it/s]
+Loading weights:   4%|▎         | 25/713 [00:01<00:18, 36.93it/s]
+Loading weights:   4%|▍         | 30/713 [00:01<00:17, 39.32it/s]
+Loading weights:   5%|▌         | 37/713 [00:01<00:15, 43.42it/s]
+Loading weights:   7%|▋         | 47/713 [00:01<00:12, 52.59it/s]
+Loading weights:   7%|▋         | 53/713 [00:01<00:12, 52.37it/s]
+Loading weights:   8%|▊         | 59/713 [00:01<00:12, 51.34it/s]
+Loading weights:  10%|▉         | 69/713 [00:01<00:10, 59.15it/s]
+Loading weights:  11%|█         | 76/713 [00:02<00:10, 59.51it/s]
+Loading weights:  12%|█▏        | 83/713 [00:02<00:11, 53.34it/s]
+Loading weights:  13%|█▎        | 92/713 [00:02<00:10, 56.51it/s]
+Loading weights:  14%|█▍        | 102/713 [00:02<00:09, 61.80it/s]
+Loading weights:  15%|█▌        | 109/713 [00:02<00:09, 61.25it/s]
+Loading weights:  16%|█▋        | 116/713 [00:02<00:11, 54.20it/s]
+Loading weights:  18%|█▊        | 125/713 [00:02<00:10, 57.73it/s]
+Loading weights:  19%|█▉        | 135/713 [00:03<00:09, 61.98it/s]
+Loading weights:  20%|█▉        | 142/713 [00:03<00:09, 61.37it/s]
+Loading weights:  21%|██        | 149/713 [00:03<00:10, 54.62it/s]
+Loading weights:  22%|██▏       | 158/713 [00:03<00:09, 58.41it/s]
+Loading weights:  24%|██▎       | 168/713 [00:03<00:08, 63.33it/s]
+Loading weights:  25%|██▍       | 175/713 [00:03<00:08, 62.74it/s]
+Loading weights:  26%|██▌       | 182/713 [00:03<00:09, 55.51it/s]
+Loading weights:  27%|██▋       | 191/713 [00:04<00:08, 59.17it/s]
+Loading weights:  28%|██▊       | 201/713 [00:04<00:07, 64.15it/s]
+Loading weights:  29%|██▉       | 208/713 [00:04<00:08, 63.05it/s]
+Loading weights:  30%|███       | 215/713 [00:04<00:08, 56.19it/s]
+Loading weights:  31%|███▏      | 224/713 [00:04<00:08, 58.53it/s]
+Loading weights:  33%|███▎      | 234/713 [00:04<00:07, 62.91it/s]
+Loading weights:  34%|███▍      | 241/713 [00:04<00:07, 62.24it/s]
+Loading weights:  35%|███▍      | 248/713 [00:04<00:08, 55.02it/s]
+Loading weights:  36%|███▌      | 257/713 [00:05<00:07, 58.69it/s]
+Loading weights:  37%|███▋      | 267/713 [00:05<00:07, 63.42it/s]
+Loading weights:  38%|███▊      | 274/713 [00:05<00:06, 62.72it/s]
+Loading weights:  39%|███▉      | 281/713 [00:05<00:07, 56.01it/s]
+Loading weights:  41%|████      | 290/713 [00:05<00:07, 59.17it/s]
+Loading weights:  42%|████▏     | 300/713 [00:05<00:06, 62.45it/s]
+Loading weights:  43%|████▎     | 307/713 [00:05<00:06, 61.39it/s]
+Loading weights:  44%|████▍     | 314/713 [00:06<00:07, 54.63it/s]
+Loading weights:  45%|████▌     | 323/713 [00:06<00:06, 58.17it/s]
+Loading weights:  47%|████▋     | 333/713 [00:06<00:06, 63.14it/s]
+Loading weights:  48%|████▊     | 340/713 [00:06<00:05, 62.27it/s]
+Loading weights:  49%|████▊     | 347/713 [00:06<00:06, 55.22it/s]
+Loading weights:  50%|████▉     | 356/713 [00:06<00:06, 58.53it/s]
+Loading weights:  51%|█████▏    | 366/713 [00:06<00:05, 62.85it/s]
+Loading weights:  52%|█████▏    | 373/713 [00:07<00:05, 61.98it/s]
+Loading weights:  53%|█████▎    | 380/713 [00:07<00:06, 54.72it/s]
+Loading weights:  55%|█████▍    | 389/713 [00:07<00:05, 57.63it/s]
+Loading weights:  57%|█████▋    | 406/713 [00:07<00:03, 83.15it/s]
+Loading weights:  67%|██████▋   | 476/713 [00:07<00:01, 235.57it/s]
+Loading weights:  75%|███████▌  | 537/713 [00:07<00:00, 333.14it/s]
+Loading weights:  86%|████████▌ | 610/713 [00:07<00:00, 440.35it/s]
+Loading weights:  96%|█████████▋| 688/713 [00:07<00:00, 494.11it/s]
+Loading weights: 100%|██████████| 713/713 [00:08<00:00, 88.77it/s] 
+NF4 layers: 252; visual and lm_head excluded from quantization
+e5_val: 20/276
+e5_val: 40/276
+e5_val: 60/276
+e5_val: 80/276
+e5_val: 100/276
+e5_val: 120/276
+e5_val: 140/276
+e5_val: 160/276
+e5_val: 180/276
+e5_val: 200/276
+e5_val: 220/276
+e5_val: 240/276
+e5_val: 260/276
+e5_val: 276/276
+E5 [val] n=276 valid=1.000 P=0.350 R=0.336 F1=0.343 CI95=0.299-0.385 meanIoU=0.708 FP/img=1.45
+   pothole  P=0.121 R=0.364 F1=0.181
+   crack    P=0.386 R=0.285 F1=0.328
+   manhole  P=0.838 R=0.553 F1=0.667
+e5: 20/311
+e5: 40/311
+e5: 60/311
+e5: 80/311
+e5: 100/311
+e5: 120/311
+e5: 140/311
+e5: 160/311
+e5: 180/311
+e5: 200/311
+e5: 220/311
+e5: 240/311
+e5: 260/311
+e5: 280/311
+e5: 300/311
+e5: 311/311
+E5 [test] n=311 valid=1.000 P=0.439 R=0.432 F1=0.436 CI95=0.394-0.478 meanIoU=0.698 FP/img=1.04
+   pothole  P=0.266 R=0.347 F1=0.301
+   crack    P=0.357 R=0.338 F1=0.347
+   manhole  P=0.820 R=0.669 F1=0.736
+{
+  "baseline": "e3",
+  "baseline_f1": 0.43320610687022904,
+  "e5_f1": 0.435609334485739,
+  "delta_f1": 0.002403227615509984,
+  "baseline_ci95": [
+    0.388634280476627,
+    0.4760076775431861
+  ],
+  "e5_ci95": [
+    0.39431616341030196,
+    0.47766636280765723
+  ],
+  "paired_delta_ci95": [
+    -0.024167433719661145,
+    0.02951850960949785
+  ],
+  "paired_bootstrap": {
+    "n_boot": 10000,
+    "seed": 42,
+    "unit": "image, not session"
+  },
+  "greedy_test_audit": {
+    "e3": {
+      "n_images": 311,
+      "invalid_outputs": 0,
+      "empty_on_nonempty_gt": 0,
+      "giant_box_images": 0,
+      "hit_token_limit_images": 0,
+      "predicted_boxes": 465,
+      "mean_iou_reward": 0.4625276293027802
+    },
+    "e5": {
+      "n_images": 311,
+      "invalid_outputs": 0,
+      "empty_on_nonempty_gt": 0,
+      "giant_box_images": 0,
+      "hit_token_limit_images": 0,
+      "predicted_boxes": 574,
+      "mean_iou_reward": 0.46889904174695424
+    }
+  },
+  "training_rollout_audit": {
+    "n_completions": 240,
+    "n_groups": 60,
+    "mean_reward": 0.40840512808057416,
+    "zero_variance_group_rate": 0.08333333333333333,
+    "invalid_rate": 0.041666666666666664,
+    "empty_on_nonempty_gt_rate": 0.0,
+    "giant_box_image_rate": 0.008333333333333333,
+    "hit_token_limit_rate": 0.041666666666666664
+  },
+  "limitations": [
+    "One seed and only three test sessions.",
+    "Training completion limit 128; shared SFT/E5 greedy evaluation limit 512.",
+    "GRPO freezes the restored SFT projector and continues its LoRA adapters."
+  ]
+}
+E5 analysis archive: /kaggle/working/lab_day10_e5_results.zip

@@ -1,0 +1,136 @@
+{
+  "all_verified": true,
+  "score_checks": [
+    "e3/val",
+    "e3/test",
+    "e5/val",
+    "e5/test"
+  ],
+  "recomputed_rewards": 240,
+  "groups": 60,
+  "unique_train_images": 60,
+  "trainer_global_steps": 60,
+  "successful_updates": 58,
+  "skipped_steps": [
+    17,
+    51
+  ],
+  "reward_first_10_groups": 0.39047224101822114,
+  "reward_last_10_groups": 0.4385962082236253,
+  "mean_completion_tokens": 55.77916666666667,
+  "zero_variance_groups": 5,
+  "invalid_and_at_limit": 10,
+  "giant_rollouts": [
+    {
+      "trainer_step": 44,
+      "image_id": "20250223_143908",
+      "raw": "[{\"label\":\"crack\",\"bbox_2d\":[292,419,783,989]},{\"label\":\"pothole\",\"bbox_2d\":[352,433,462,528]},{\"label\":\"pothole\",\"bbox_2d\":[355,536,450,669]},{\"label\":\"pothole\",\"bbox_2d\":[539,539,589,600]}]",
+      "completion_tokens": 114,
+      "hit_token_limit": false,
+      "reward": 0.38546370965646204,
+      "parse_valid": true,
+      "n_pred": 4,
+      "n_gt": 6,
+      "empty": false,
+      "matched_pairs": 2,
+      "sum_iou": 1.3909778224234652,
+      "giant_boxes": 1
+    },
+    {
+      "trainer_step": 44,
+      "image_id": "20250223_143908",
+      "raw": "[{\"label\":\"crack\",\"bbox_2d\":[311,297,988,986]},{\"label\":\"pothole\",\"bbox_2d\":[323,417,600,683]}]",
+      "completion_tokens": 58,
+      "hit_token_limit": false,
+      "reward": 0.2846606813021328,
+      "parse_valid": true,
+      "n_pred": 2,
+      "n_gt": 6,
+      "empty": false,
+      "matched_pairs": 1,
+      "sum_iou": 0.6349551097659958,
+      "giant_boxes": 1
+    }
+  ],
+  "comparison": {
+    "baseline": "e3",
+    "baseline_f1": 0.43320610687022904,
+    "e5_f1": 0.435609334485739,
+    "delta_f1": 0.002403227615509984,
+    "baseline_ci95": [
+      0.388634280476627,
+      0.4760076775431861
+    ],
+    "e5_ci95": [
+      0.39431616341030196,
+      0.47766636280765723
+    ],
+    "paired_delta_ci95": [
+      -0.024167433719661145,
+      0.02951850960949785
+    ],
+    "paired_bootstrap": {
+      "n_boot": 10000,
+      "seed": 42,
+      "unit": "image, not session"
+    },
+    "greedy_test_audit": {
+      "e3": {
+        "n_images": 311,
+        "invalid_outputs": 0,
+        "empty_on_nonempty_gt": 0,
+        "giant_box_images": 0,
+        "hit_token_limit_images": 0,
+        "predicted_boxes": 465,
+        "mean_iou_reward": 0.4625276293027802
+      },
+      "e5": {
+        "n_images": 311,
+        "invalid_outputs": 0,
+        "empty_on_nonempty_gt": 0,
+        "giant_box_images": 0,
+        "hit_token_limit_images": 0,
+        "predicted_boxes": 574,
+        "mean_iou_reward": 0.46889904174695424
+      }
+    },
+    "training_rollout_audit": {
+      "n_completions": 240,
+      "n_groups": 60,
+      "mean_reward": 0.40840512808057416,
+      "zero_variance_group_rate": 0.08333333333333333,
+      "invalid_rate": 0.041666666666666664,
+      "empty_on_nonempty_gt_rate": 0.0,
+      "giant_box_image_rate": 0.008333333333333333,
+      "hit_token_limit_rate": 0.041666666666666664
+    },
+    "limitations": [
+      "One seed and only three test sessions.",
+      "Training completion limit 128; shared SFT/E5 greedy evaluation limit 512.",
+      "GRPO freezes the restored SFT projector and continues its LoRA adapters."
+    ]
+  },
+  "test_per_session": {
+    "num-4": {
+      "n_images": 15,
+      "f1": {
+        "e3": 0.5,
+        "e5": 0.5833333333333334
+      }
+    },
+    "vlc-2025-02-18-23": {
+      "n_images": 213,
+      "f1": {
+        "e3": 0.44797687861271673,
+        "e5": 0.4261874197689345
+      }
+    },
+    "vlc-2025-02-19-17": {
+      "n_images": 83,
+      "f1": {
+        "e3": 0.391025641025641,
+        "e5": 0.43636363636363634
+      }
+    }
+  }
+}

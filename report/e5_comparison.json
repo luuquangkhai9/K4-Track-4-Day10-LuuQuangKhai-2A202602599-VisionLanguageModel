@@ -1,0 +1,58 @@
+{
+  "baseline": "e3",
+  "baseline_f1": 0.43320610687022904,
+  "e5_f1": 0.435609334485739,
+  "delta_f1": 0.002403227615509984,
+  "baseline_ci95": [
+    0.388634280476627,
+    0.4760076775431861
+  ],
+  "e5_ci95": [
+    0.39431616341030196,
+    0.47766636280765723
+  ],
+  "paired_delta_ci95": [
+    -0.024167433719661145,
+    0.02951850960949785
+  ],
+  "paired_bootstrap": {
+    "n_boot": 10000,
+    "seed": 42,
+    "unit": "image, not session"
+  },
+  "greedy_test_audit": {
+    "e3": {
+      "n_images": 311,
+      "invalid_outputs": 0,
+      "empty_on_nonempty_gt": 0,
+      "giant_box_images": 0,
+      "hit_token_limit_images": 0,
+      "predicted_boxes": 465,
+      "mean_iou_reward": 0.4625276293027802
+    },
+    "e5": {
+      "n_images": 311,
+      "invalid_outputs": 0,
+      "empty_on_nonempty_gt": 0,
+      "giant_box_images": 0,
+      "hit_token_limit_images": 0,
+      "predicted_boxes": 574,
+      "mean_iou_reward": 0.46889904174695424
+    }
+  },
+  "training_rollout_audit": {
+    "n_completions": 240,
+    "n_groups": 60,
+    "mean_reward": 0.40840512808057416,
+    "zero_variance_group_rate": 0.08333333333333333,
+    "invalid_rate": 0.041666666666666664,
+    "empty_on_nonempty_gt_rate": 0.0,
+    "giant_box_image_rate": 0.008333333333333333,
+    "hit_token_limit_rate": 0.041666666666666664
+  },
+  "limitations": [
+    "One seed and only three test sessions.",
+    "Training completion limit 128; shared SFT/E5 greedy evaluation limit 512.",
+    "GRPO freezes the restored SFT projector and continues its LoRA adapters."
+  ]
+}

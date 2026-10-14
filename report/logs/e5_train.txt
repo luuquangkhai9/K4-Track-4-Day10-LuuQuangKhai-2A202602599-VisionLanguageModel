@@ -1,0 +1,374 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:34<00:34, 34.20s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:44<00:00, 20.15s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:44<00:00, 22.26s/it]
+
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/713 [00:00<08:38,  1.37it/s]
+Loading weights:   0%|          | 3/713 [00:00<03:08,  3.77it/s]
+Loading weights:   1%|          | 5/713 [00:01<01:49,  6.45it/s]
+Loading weights:   2%|▏         | 15/713 [00:01<00:31, 22.48it/s]
+Loading weights:   4%|▎         | 25/713 [00:01<00:19, 35.76it/s]
+Loading weights:   4%|▍         | 30/713 [00:01<00:17, 38.66it/s]
+Loading weights:   5%|▌         | 37/713 [00:01<00:15, 42.99it/s]
+Loading weights:   7%|▋         | 47/713 [00:01<00:12, 51.81it/s]
+Loading weights:   7%|▋         | 53/713 [00:01<00:12, 51.41it/s]
+Loading weights:   8%|▊         | 59/713 [00:01<00:12, 51.62it/s]
+Loading weights:  10%|▉         | 69/713 [00:02<00:10, 58.74it/s]
+Loading weights:  11%|█         | 76/713 [00:02<00:10, 58.68it/s]
+Loading weights:  12%|█▏        | 82/713 [00:02<00:12, 50.58it/s]
+Loading weights:  13%|█▎        | 92/713 [00:02<00:10, 57.71it/s]
+Loading weights:  14%|█▍        | 102/713 [00:02<00:09, 62.52it/s]
+Loading weights:  15%|█▌        | 109/713 [00:02<00:09, 61.63it/s]
+Loading weights:  16%|█▋        | 116/713 [00:02<00:10, 54.79it/s]
+Loading weights:  18%|█▊        | 125/713 [00:03<00:10, 57.95it/s]
+Loading weights:  19%|█▉        | 135/713 [00:03<00:09, 62.50it/s]
+Loading weights:  20%|█▉        | 142/713 [00:03<00:09, 60.72it/s]
+Loading weights:  21%|██        | 149/713 [00:03<00:10, 53.72it/s]
+Loading weights:  22%|██▏       | 158/713 [00:03<00:09, 57.19it/s]
+Loading weights:  24%|██▎       | 168/713 [00:03<00:08, 62.02it/s]
+Loading weights:  25%|██▍       | 175/713 [00:03<00:08, 61.11it/s]
+Loading weights:  26%|██▌       | 182/713 [00:04<00:09, 54.36it/s]
+Loading weights:  27%|██▋       | 191/713 [00:04<00:09, 57.48it/s]
+Loading weights:  28%|██▊       | 201/713 [00:04<00:08, 62.26it/s]
+Loading weights:  29%|██▉       | 208/713 [00:04<00:08, 61.34it/s]
+Loading weights:  30%|███       | 215/713 [00:04<00:09, 54.46it/s]
+Loading weights:  31%|███▏      | 224/713 [00:04<00:08, 58.31it/s]
+Loading weights:  33%|███▎      | 234/713 [00:04<00:07, 63.21it/s]
+Loading weights:  34%|███▍      | 241/713 [00:04<00:07, 62.33it/s]
+Loading weights:  35%|███▍      | 248/713 [00:05<00:08, 55.30it/s]
+Loading weights:  36%|███▌      | 257/713 [00:05<00:07, 58.93it/s]
+Loading weights:  37%|███▋      | 267/713 [00:05<00:07, 63.53it/s]
+Loading weights:  38%|███▊      | 274/713 [00:05<00:07, 62.36it/s]
+Loading weights:  39%|███▉      | 281/713 [00:05<00:07, 55.01it/s]
+Loading weights:  41%|████      | 290/713 [00:05<00:07, 58.50it/s]
+Loading weights:  42%|████▏     | 300/713 [00:05<00:06, 63.10it/s]
+Loading weights:  43%|████▎     | 307/713 [00:06<00:06, 61.87it/s]
+Loading weights:  44%|████▍     | 314/713 [00:06<00:07, 54.81it/s]
+Loading weights:  45%|████▌     | 323/713 [00:06<00:06, 57.99it/s]
+Loading weights:  47%|████▋     | 333/713 [00:06<00:06, 62.64it/s]
+Loading weights:  48%|████▊     | 340/713 [00:06<00:06, 61.41it/s]
+Loading weights:  49%|████▊     | 347/713 [00:06<00:06, 54.48it/s]
+Loading weights:  50%|████▉     | 356/713 [00:06<00:06, 58.01it/s]
+Loading weights:  51%|█████▏    | 366/713 [00:07<00:05, 62.45it/s]
+Loading weights:  52%|█████▏    | 373/713 [00:07<00:05, 60.99it/s]
+Loading weights:  53%|█████▎    | 380/713 [00:07<00:06, 54.12it/s]
+Loading weights:  55%|█████▍    | 389/713 [00:07<00:05, 57.49it/s]
+Loading weights:  57%|█████▋    | 406/713 [00:07<00:03, 82.98it/s]
+Loading weights:  68%|██████▊   | 486/713 [00:07<00:00, 258.21it/s]
+Loading weights:  79%|███████▊  | 560/713 [00:07<00:00, 382.20it/s]
+Loading weights:  89%|████████▉ | 635/713 [00:07<00:00, 481.25it/s]
+Loading weights:  97%|█████████▋| 690/713 [00:08<00:00, 488.38it/s]
+Loading weights: 100%|██████████| 713/713 [00:08<00:00, 87.43it/s] 
+NF4 layers: 252; visual and lm_head excluded from quantization
+[transformers] The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 151643}.
+
+  0%|          | 0/60 [00:00<?, ?it/s]
+  2%|▏         | 1/60 [00:28<28:00, 28.49s/it]
+                                              
+{'loss': '-1.788e-07', 'grad_norm': '0.5694', 'learning_rate': '5e-06', 'num_tokens': '1543', 'completions/mean_length': '71.75', 'completions/min_length': '57', 'completions/max_length': '115', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '71.75', 'completions/min_terminated_length': '57', 'completions/max_terminated_length': '115', 'rewards/iou_reward/mean': '0.2717', 'rewards/iou_reward/std': '0.09495', 'reward': '0.2717', 'reward_std': '0.09495', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5981', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '28.06', 'epoch': '0.0007032'}
+
+  2%|▏         | 1/60 [00:28<28:00, 28.49s/it]
+  3%|▎         | 2/60 [00:43<19:55, 20.62s/it]
+                                              
+{'loss': '7.451e-08', 'grad_norm': '0.8174', 'learning_rate': '5e-06', 'num_tokens': '2994', 'completions/mean_length': '48.75', 'completions/min_length': '28', 'completions/max_length': '56', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '48.75', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '56', 'rewards/iou_reward/mean': '0.4496', 'rewards/iou_reward/std': '0.3034', 'reward': '0.4496', 'reward_std': '0.3034', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5215', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.01', 'epoch': '0.001406'}
+
+  3%|▎         | 2/60 [00:43<19:55, 20.62s/it]
+  5%|▌         | 3/60 [00:59<17:20, 18.26s/it]
+                                              
+{'loss': '8.941e-08', 'grad_norm': '0.6997', 'learning_rate': '5e-06', 'num_tokens': '4445', 'completions/mean_length': '48.75', 'completions/min_length': '28', 'completions/max_length': '56', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '48.75', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '56', 'rewards/iou_reward/mean': '0.3733', 'rewards/iou_reward/std': '0.08071', 'reward': '0.3733', 'reward_std': '0.08071', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5036', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.36', 'epoch': '0.00211'}
+
+  5%|▌         | 3/60 [00:59<17:20, 18.26s/it]
+  7%|▋         | 4/60 [01:26<20:31, 21.99s/it]
+                                              
+{'loss': '0', 'grad_norm': '2.239', 'learning_rate': '5e-06', 'num_tokens': '6061', 'completions/mean_length': '90', 'completions/min_length': '59', 'completions/max_length': '128', 'completions/clipped_ratio': '0.25', 'completions/mean_terminated_length': '77.33', 'completions/min_terminated_length': '59', 'completions/max_terminated_length': '114', 'rewards/iou_reward/mean': '0.163', 'rewards/iou_reward/std': '0.1114', 'reward': '0.163', 'reward_std': '0.1114', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.75', 'entropy': '0.5317', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '27.62', 'epoch': '0.002813'}
+
+  7%|▋         | 4/60 [01:26<20:31, 21.99s/it]
+  8%|▊         | 5/60 [01:48<19:57, 21.78s/it]
+                                              
+{'loss': '4.47e-08', 'grad_norm': '0.5471', 'learning_rate': '5e-06', 'num_tokens': '7576', 'completions/mean_length': '64.75', 'completions/min_length': '58', 'completions/max_length': '85', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '64.75', 'completions/min_terminated_length': '58', 'completions/max_terminated_length': '85', 'rewards/iou_reward/mean': '0.696', 'rewards/iou_reward/std': '0.231', 'reward': '0.696', 'reward_std': '0.231', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.429', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '21.33', 'epoch': '0.003516'}
+
+  8%|▊         | 5/60 [01:48<19:57, 21.78s/it]
+ 10%|█         | 6/60 [02:15<21:24, 23.79s/it]
+                                              
+{'loss': '1.49e-08', 'grad_norm': '0.4918', 'learning_rate': '5e-06', 'num_tokens': '9136', 'completions/mean_length': '76', 'completions/min_length': '31', 'completions/max_length': '128', 'completions/clipped_ratio': '0.25', 'completions/mean_terminated_length': '58.67', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '86', 'rewards/iou_reward/mean': '0.277', 'rewards/iou_reward/std': '0.2202', 'reward': '0.277', 'reward_std': '0.2202', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.75', 'entropy': '0.5095', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '27.59', 'epoch': '0.004219'}
+
+ 10%|█         | 6/60 [02:15<21:24, 23.79s/it]
+ 12%|█▏        | 7/60 [02:31<18:42, 21.17s/it]
+                                              
+{'loss': '-1.788e-07', 'grad_norm': '0.9264', 'learning_rate': '5e-06', 'num_tokens': '1.057e+04', 'completions/mean_length': '43.75', 'completions/min_length': '30', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '43.75', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.4566', 'rewards/iou_reward/std': '0.04662', 'reward': '0.4566', 'reward_std': '0.04662', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3831', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.72', 'epoch': '0.004923'}
+
+ 12%|█▏        | 7/60 [02:31<18:42, 21.17s/it]
+ 13%|█▎        | 8/60 [02:56<19:23, 22.38s/it]
+                                              
+{'loss': '1.49e-07', 'grad_norm': '0.5225', 'learning_rate': '5e-06', 'num_tokens': '1.221e+04', 'completions/mean_length': '97.75', 'completions/min_length': '84', 'completions/max_length': '112', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '97.75', 'completions/min_terminated_length': '84', 'completions/max_terminated_length': '112', 'rewards/iou_reward/mean': '0.5354', 'rewards/iou_reward/std': '0.09287', 'reward': '0.5354', 'reward_std': '0.09287', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5466', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '24.88', 'epoch': '0.005626'}
+
+ 13%|█▎        | 8/60 [02:56<19:23, 22.38s/it]
+ 15%|█▌        | 9/60 [03:16<18:24, 21.66s/it]
+                                              
+{'loss': '-1.49e-08', 'grad_norm': '0.6695', 'learning_rate': '5e-06', 'num_tokens': '1.371e+04', 'completions/mean_length': '61', 'completions/min_length': '28', 'completions/max_length': '82', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '61', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '82', 'rewards/iou_reward/mean': '0.3064', 'rewards/iou_reward/std': '0.1292', 'reward': '0.3064', 'reward_std': '0.1292', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5311', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '19.99', 'epoch': '0.006329'}
+
+ 15%|█▌        | 9/60 [03:16<18:24, 21.66s/it]
+ 17%|█▋        | 10/60 [03:44<19:38, 23.57s/it]
+                                               
+{'loss': '-3.725e-08', 'grad_norm': '0.5613', 'learning_rate': '5e-06', 'num_tokens': '1.537e+04', 'completions/mean_length': '100.5', 'completions/min_length': '82', 'completions/max_length': '128', 'completions/clipped_ratio': '0.25', 'completions/mean_terminated_length': '91.33', 'completions/min_terminated_length': '82', 'completions/max_terminated_length': '110', 'rewards/iou_reward/mean': '0.3757', 'rewards/iou_reward/std': '0.2603', 'reward': '0.3757', 'reward_std': '0.2603', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.75', 'entropy': '0.5636', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '27.75', 'epoch': '0.007032'}
+
+ 17%|█▋        | 10/60 [03:44<19:38, 23.57s/it]
+ 18%|█▊        | 11/60 [04:00<17:15, 21.12s/it]
+                                               
+{'loss': '0', 'grad_norm': '0', 'learning_rate': '5e-06', 'num_tokens': '1.68e+04', 'completions/mean_length': '42.5', 'completions/min_length': '29', 'completions/max_length': '57', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '42.5', 'completions/min_terminated_length': '29', 'completions/max_terminated_length': '57', 'rewards/iou_reward/mean': '0.2', 'rewards/iou_reward/std': '0', 'reward': '0.2', 'reward_std': '0', 'frac_reward_zero_std': '1', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5024', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.49', 'epoch': '0.007736'}
+
+ 18%|█▊        | 11/60 [04:00<17:15, 21.12s/it]
+ 20%|██        | 12/60 [04:20<16:43, 20.91s/it]
+                                               
+{'loss': '-7.451e-08', 'grad_norm': '0.7635', 'learning_rate': '5e-06', 'num_tokens': '1.829e+04', 'completions/mean_length': '58', 'completions/min_length': '31', 'completions/max_length': '85', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '58', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '85', 'rewards/iou_reward/mean': '0.4497', 'rewards/iou_reward/std': '0.08955', 'reward': '0.4497', 'reward_std': '0.08955', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4699', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.33', 'epoch': '0.008439'}
+
+ 20%|██        | 12/60 [04:20<16:43, 20.91s/it]
+ 22%|██▏       | 13/60 [04:32<14:10, 18.10s/it]
+                                               
+{'loss': '-1.49e-08', 'grad_norm': '2.39', 'learning_rate': '5e-06', 'num_tokens': '1.966e+04', 'completions/mean_length': '30', 'completions/min_length': '30', 'completions/max_length': '30', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '30', 'rewards/iou_reward/mean': '0.5848', 'rewards/iou_reward/std': '0.2666', 'reward': '0.5848', 'reward_std': '0.2666', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5245', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.57', 'epoch': '0.009142'}
+
+ 22%|██▏       | 13/60 [04:32<14:10, 18.10s/it]
+ 23%|██▎       | 14/60 [04:47<13:13, 17.25s/it]
+                                               
+{'loss': '0', 'grad_norm': '0', 'learning_rate': '5e-06', 'num_tokens': '2.107e+04', 'completions/mean_length': '37', 'completions/min_length': '30', 'completions/max_length': '57', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '37', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '57', 'rewards/iou_reward/mean': '0.2', 'rewards/iou_reward/std': '0', 'reward': '0.2', 'reward_std': '0', 'frac_reward_zero_std': '1', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.6636', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.19', 'epoch': '0.009845'}
+
+ 23%|██▎       | 14/60 [04:47<13:13, 17.25s/it]
+ 25%|██▌       | 15/60 [05:07<13:38, 18.19s/it]
+                                               
+{'loss': '-8.941e-08', 'grad_norm': '1.785', 'learning_rate': '5e-06', 'num_tokens': '2.251e+04', 'completions/mean_length': '48', 'completions/min_length': '28', 'completions/max_length': '81', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '48', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '81', 'rewards/iou_reward/mean': '0.3792', 'rewards/iou_reward/std': '0.1464', 'reward': '0.3792', 'reward_std': '0.1464', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.552', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.29', 'epoch': '0.01055'}
+
+ 25%|██▌       | 15/60 [05:07<13:38, 18.19s/it]
+ 27%|██▋       | 16/60 [05:35<15:25, 21.03s/it]
+                                               
+{'loss': '0', 'grad_norm': '0.771', 'learning_rate': '5e-06', 'num_tokens': '2.404e+04', 'completions/mean_length': '68.5', 'completions/min_length': '30', 'completions/max_length': '128', 'completions/clipped_ratio': '0.25', 'completions/mean_terminated_length': '48.67', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '85', 'rewards/iou_reward/mean': '0.2178', 'rewards/iou_reward/std': '0.1588', 'reward': '0.2178', 'reward_std': '0.1588', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.75', 'entropy': '0.4921', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '27.53', 'epoch': '0.01125'}
+
+ 27%|██▋       | 16/60 [05:35<15:25, 21.03s/it]
+ 28%|██▊       | 17/60 [06:00<15:57, 22.27s/it]
+                                               
+{'loss': '-2.384e-07', 'grad_norm': 'nan', 'learning_rate': '5e-06', 'num_tokens': '2.558e+04', 'completions/mean_length': '71.25', 'completions/min_length': '57', 'completions/max_length': '114', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '71.25', 'completions/min_terminated_length': '57', 'completions/max_terminated_length': '114', 'rewards/iou_reward/mean': '0.2516', 'rewards/iou_reward/std': '0.05959', 'reward': '0.2516', 'reward_std': '0.05959', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.377', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '25.07', 'epoch': '0.01195'}
+
+ 28%|██▊       | 17/60 [06:00<15:57, 22.27s/it]
+ 30%|███       | 18/60 [06:25<16:09, 23.08s/it]
+                                               
+{'loss': '0', 'grad_norm': '0.9902', 'learning_rate': '5e-06', 'num_tokens': '2.712e+04', 'completions/mean_length': '70.5', 'completions/min_length': '30', 'completions/max_length': '111', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '70.5', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '111', 'rewards/iou_reward/mean': '0.3824', 'rewards/iou_reward/std': '0.247', 'reward': '0.3824', 'reward_std': '0.247', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.6203', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '24.87', 'epoch': '0.01266'}
+
+ 30%|███       | 18/60 [06:25<16:09, 23.08s/it]
+ 32%|███▏      | 19/60 [06:46<15:16, 22.36s/it]
+                                               
+{'loss': '0', 'grad_norm': '0', 'learning_rate': '5e-06', 'num_tokens': '2.86e+04', 'completions/mean_length': '55.25', 'completions/min_length': '28', 'completions/max_length': '83', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '55.25', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '83', 'rewards/iou_reward/mean': '0.2', 'rewards/iou_reward/std': '0', 'reward': '0.2', 'reward_std': '0', 'frac_reward_zero_std': '1', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5311', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.6', 'epoch': '0.01336'}
+
+ 32%|███▏      | 19/60 [06:46<15:16, 22.36s/it]
+ 33%|███▎      | 20/60 [07:04<14:06, 21.15s/it]
+                                               
+{'loss': '-1.937e-07', 'grad_norm': '0.5647', 'learning_rate': '5e-06', 'num_tokens': '3.008e+04', 'completions/mean_length': '55.25', 'completions/min_length': '55', 'completions/max_length': '56', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '55.25', 'completions/min_terminated_length': '55', 'completions/max_terminated_length': '56', 'rewards/iou_reward/mean': '0.4956', 'rewards/iou_reward/std': '0.1523', 'reward': '0.4956', 'reward_std': '0.1523', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5124', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.75', 'epoch': '0.01406'}
+
+ 33%|███▎      | 20/60 [07:04<14:06, 21.15s/it]
+ 35%|███▌      | 21/60 [07:30<14:41, 22.60s/it]
+                                               
+{'loss': '-1.49e-07', 'grad_norm': '1.238', 'learning_rate': '5e-06', 'num_tokens': '3.156e+04', 'completions/mean_length': '57.75', 'completions/min_length': '30', 'completions/max_length': '112', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '57.75', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '112', 'rewards/iou_reward/mean': '0.2756', 'rewards/iou_reward/std': '0.05197', 'reward': '0.2756', 'reward_std': '0.05197', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5042', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '25.89', 'epoch': '0.01477'}
+
+ 35%|███▌      | 21/60 [07:30<14:41, 22.60s/it]
+ 37%|███▋      | 22/60 [07:46<13:05, 20.67s/it]
+                                               
+{'loss': '4.657e-08', 'grad_norm': '1.144', 'learning_rate': '5e-06', 'num_tokens': '3.299e+04', 'completions/mean_length': '42.75', 'completions/min_length': '29', 'completions/max_length': '56', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '42.75', 'completions/min_terminated_length': '29', 'completions/max_terminated_length': '56', 'rewards/iou_reward/mean': '0.4721', 'rewards/iou_reward/std': '0.2466', 'reward': '0.4721', 'reward_std': '0.2466', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5758', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.08', 'epoch': '0.01547'}
+
+ 37%|███▋      | 22/60 [07:46<13:05, 20.67s/it]
+ 38%|███▊      | 23/60 [08:08<12:56, 21.00s/it]
+                                               
+{'loss': '-1.267e-07', 'grad_norm': '0.7676', 'learning_rate': '5e-06', 'num_tokens': '3.451e+04', 'completions/mean_length': '65', 'completions/min_length': '31', 'completions/max_length': '86', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '65', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '86', 'rewards/iou_reward/mean': '0.2398', 'rewards/iou_reward/std': '0.07961', 'reward': '0.2398', 'reward_std': '0.07961', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4872', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '21.65', 'epoch': '0.01617'}
+
+ 38%|███▊      | 23/60 [08:08<12:56, 21.00s/it]
+ 40%|████      | 24/60 [08:29<12:39, 21.09s/it]
+                                               
+{'loss': '2.384e-07', 'grad_norm': '0.8296', 'learning_rate': '5e-06', 'num_tokens': '3.596e+04', 'completions/mean_length': '50.25', 'completions/min_length': '30', 'completions/max_length': '84', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '50.25', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '84', 'rewards/iou_reward/mean': '0.5165', 'rewards/iou_reward/std': '0.0345', 'reward': '0.5165', 'reward_std': '0.0345', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4332', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '21.21', 'epoch': '0.01688'}
+
+ 40%|████      | 24/60 [08:29<12:39, 21.09s/it]
+ 42%|████▏     | 25/60 [08:50<12:17, 21.07s/it]
+                                               
+{'loss': '-1.416e-07', 'grad_norm': '0.6418', 'learning_rate': '5e-06', 'num_tokens': '3.747e+04', 'completions/mean_length': '63.25', 'completions/min_length': '56', 'completions/max_length': '83', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '63.25', 'completions/min_terminated_length': '56', 'completions/max_terminated_length': '83', 'rewards/iou_reward/mean': '0.3777', 'rewards/iou_reward/std': '0.1437', 'reward': '0.3777', 'reward_std': '0.1437', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5631', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.93', 'epoch': '0.01758'}
+
+ 42%|████▏     | 25/60 [08:50<12:17, 21.07s/it]
+ 43%|████▎     | 26/60 [09:07<11:09, 19.69s/it]
+                                               
+{'loss': '-1.937e-07', 'grad_norm': '0.7562', 'learning_rate': '5e-06', 'num_tokens': '3.89e+04', 'completions/mean_length': '43.5', 'completions/min_length': '30', 'completions/max_length': '57', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '43.5', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '57', 'rewards/iou_reward/mean': '0.6174', 'rewards/iou_reward/std': '0.1746', 'reward': '0.6174', 'reward_std': '0.1746', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4566', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.37', 'epoch': '0.01828'}
+
+ 43%|████▎     | 26/60 [09:07<11:09, 19.69s/it]
+ 45%|████▌     | 27/60 [09:36<12:20, 22.45s/it]
+                                               
+{'loss': '5.96e-08', 'grad_norm': '0.6634', 'learning_rate': '5e-06', 'num_tokens': '4.065e+04', 'completions/mean_length': '123.8', 'completions/min_length': '111', 'completions/max_length': '128', 'completions/clipped_ratio': '0.75', 'completions/mean_terminated_length': '111', 'completions/min_terminated_length': '111', 'completions/max_terminated_length': '111', 'rewards/iou_reward/mean': '0.08372', 'rewards/iou_reward/std': '0.1674', 'reward': '0.08372', 'reward_std': '0.1674', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.25', 'entropy': '0.4875', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '28.78', 'epoch': '0.01899'}
+
+ 45%|████▌     | 27/60 [09:36<12:20, 22.45s/it]
+ 47%|████▋     | 28/60 [09:52<11:03, 20.73s/it]
+                                               
+{'loss': '-2.98e-08', 'grad_norm': '0.7501', 'learning_rate': '5e-06', 'num_tokens': '4.209e+04', 'completions/mean_length': '44', 'completions/min_length': '30', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '44', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.273', 'rewards/iou_reward/std': '0.146', 'reward': '0.273', 'reward_std': '0.146', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5226', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.65', 'epoch': '0.01969'}
+
+ 47%|████▋     | 28/60 [09:52<11:03, 20.73s/it]
+ 48%|████▊     | 29/60 [10:04<09:21, 18.12s/it]
+                                               
+{'loss': '8.792e-07', 'grad_norm': '0.4097', 'learning_rate': '5e-06', 'num_tokens': '4.346e+04', 'completions/mean_length': '30', 'completions/min_length': '30', 'completions/max_length': '30', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '30', 'rewards/iou_reward/mean': '0.7879', 'rewards/iou_reward/std': '0.03441', 'reward': '0.7879', 'reward_std': '0.03441', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3653', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.93', 'epoch': '0.02039'}
+
+ 48%|████▊     | 29/60 [10:04<09:21, 18.12s/it]
+ 50%|█████     | 30/60 [10:16<08:05, 16.19s/it]
+                                               
+{'loss': '-1.043e-07', 'grad_norm': '0.6392', 'learning_rate': '5e-06', 'num_tokens': '4.484e+04', 'completions/mean_length': '30.25', 'completions/min_length': '30', 'completions/max_length': '31', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30.25', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '31', 'rewards/iou_reward/mean': '0.4516', 'rewards/iou_reward/std': '0.3006', 'reward': '0.4516', 'reward_std': '0.3006', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5024', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.6', 'epoch': '0.0211'}
+
+ 50%|█████     | 30/60 [10:16<08:05, 16.19s/it]
+ 52%|█████▏    | 31/60 [10:36<08:25, 17.42s/it]
+                                               
+{'loss': '-2.98e-08', 'grad_norm': '0.9315', 'learning_rate': '5e-06', 'num_tokens': '4.626e+04', 'completions/mean_length': '41.75', 'completions/min_length': '28', 'completions/max_length': '81', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '41.75', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '81', 'rewards/iou_reward/mean': '0.2902', 'rewards/iou_reward/std': '0.1803', 'reward': '0.2902', 'reward_std': '0.1803', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5787', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.2', 'epoch': '0.0218'}
+
+ 52%|█████▏    | 31/60 [10:36<08:25, 17.42s/it]
+ 53%|█████▎    | 32/60 [10:53<07:57, 17.06s/it]
+                                               
+{'loss': '-1.043e-07', 'grad_norm': '0.5992', 'learning_rate': '5e-06', 'num_tokens': '4.774e+04', 'completions/mean_length': '55', 'completions/min_length': '55', 'completions/max_length': '55', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '55', 'completions/min_terminated_length': '55', 'completions/max_terminated_length': '55', 'rewards/iou_reward/mean': '0.2506', 'rewards/iou_reward/std': '0.1012', 'reward': '0.2506', 'reward_std': '0.1012', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5045', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.14', 'epoch': '0.0225'}
+
+ 53%|█████▎    | 32/60 [10:53<07:57, 17.06s/it]
+ 55%|█████▌    | 33/60 [11:09<07:34, 16.84s/it]
+                                               
+{'loss': '1.49e-08', 'grad_norm': '0.6082', 'learning_rate': '5e-06', 'num_tokens': '4.917e+04', 'completions/mean_length': '43.5', 'completions/min_length': '30', 'completions/max_length': '57', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '43.5', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '57', 'rewards/iou_reward/mean': '0.2888', 'rewards/iou_reward/std': '0.04801', 'reward': '0.2888', 'reward_std': '0.04801', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4318', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.24', 'epoch': '0.02321'}
+
+ 55%|█████▌    | 33/60 [11:09<07:34, 16.84s/it]
+ 57%|█████▋    | 34/60 [11:21<06:39, 15.36s/it]
+                                               
+{'loss': '1.639e-07', 'grad_norm': '0.9262', 'learning_rate': '5e-06', 'num_tokens': '5.054e+04', 'completions/mean_length': '30', 'completions/min_length': '30', 'completions/max_length': '30', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '30', 'rewards/iou_reward/mean': '0.7629', 'rewards/iou_reward/std': '0.08124', 'reward': '0.7629', 'reward_std': '0.08124', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3038', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.83', 'epoch': '0.02391'}
+
+ 57%|█████▋    | 34/60 [11:21<06:39, 15.36s/it]
+ 58%|█████▊    | 35/60 [11:33<05:58, 14.35s/it]
+                                               
+{'loss': '1.386e-06', 'grad_norm': '0.7146', 'learning_rate': '5e-06', 'num_tokens': '5.192e+04', 'completions/mean_length': '30', 'completions/min_length': '30', 'completions/max_length': '30', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '30', 'rewards/iou_reward/mean': '0.8291', 'rewards/iou_reward/std': '0.02203', 'reward': '0.8291', 'reward_std': '0.02203', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3389', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.91', 'epoch': '0.02461'}
+
+ 58%|█████▊    | 35/60 [11:33<05:58, 14.35s/it]
+ 60%|██████    | 36/60 [11:54<06:31, 16.32s/it]
+                                               
+{'loss': '2.384e-07', 'grad_norm': '0.8696', 'learning_rate': '5e-06', 'num_tokens': '5.343e+04', 'completions/mean_length': '63.75', 'completions/min_length': '30', 'completions/max_length': '84', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '63.75', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '84', 'rewards/iou_reward/mean': '0.6015', 'rewards/iou_reward/std': '0.157', 'reward': '0.6015', 'reward_std': '0.157', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4219', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.8', 'epoch': '0.02532'}
+
+ 60%|██████    | 36/60 [11:54<06:31, 16.32s/it]
+ 62%|██████▏   | 37/60 [12:06<05:44, 14.99s/it]
+                                               
+{'loss': '0', 'grad_norm': '0', 'learning_rate': '5e-06', 'num_tokens': '5.481e+04', 'completions/mean_length': '31', 'completions/min_length': '31', 'completions/max_length': '31', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '31', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '31', 'rewards/iou_reward/mean': '0.2', 'rewards/iou_reward/std': '0', 'reward': '0.2', 'reward_std': '0', 'frac_reward_zero_std': '1', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3828', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.81', 'epoch': '0.02602'}
+
+ 62%|██████▏   | 37/60 [12:06<05:44, 14.99s/it]
+ 63%|██████▎   | 38/60 [12:22<05:38, 15.37s/it]
+                                               
+{'loss': '-4.47e-08', 'grad_norm': '0.9219', 'learning_rate': '5e-06', 'num_tokens': '5.627e+04', 'completions/mean_length': '50.25', 'completions/min_length': '30', 'completions/max_length': '57', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '50.25', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '57', 'rewards/iou_reward/mean': '0.4497', 'rewards/iou_reward/std': '0.2896', 'reward': '0.4497', 'reward_std': '0.2896', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5346', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.15', 'epoch': '0.02672'}
+
+ 63%|██████▎   | 38/60 [12:22<05:38, 15.37s/it]
+ 65%|██████▌   | 39/60 [12:50<06:40, 19.07s/it]
+                                               
+{'loss': '-1.49e-08', 'grad_norm': '0.4845', 'learning_rate': '5e-06', 'num_tokens': '5.791e+04', 'completions/mean_length': '96.5', 'completions/min_length': '31', 'completions/max_length': '128', 'completions/clipped_ratio': '0.25', 'completions/mean_terminated_length': '86', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '114', 'rewards/iou_reward/mean': '0.2684', 'rewards/iou_reward/std': '0.2114', 'reward': '0.2684', 'reward_std': '0.2114', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.75', 'entropy': '0.4365', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '27.63', 'epoch': '0.02743'}
+
+ 65%|██████▌   | 39/60 [12:50<06:40, 19.07s/it]
+ 67%|██████▋   | 40/60 [13:17<07:09, 21.49s/it]
+                                               
+{'loss': '1.267e-07', 'grad_norm': '1.675', 'learning_rate': '5e-06', 'num_tokens': '5.948e+04', 'completions/mean_length': '77.75', 'completions/min_length': '57', 'completions/max_length': '112', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '77.75', 'completions/min_terminated_length': '57', 'completions/max_terminated_length': '112', 'rewards/iou_reward/mean': '0.4738', 'rewards/iou_reward/std': '0.0761', 'reward': '0.4738', 'reward_std': '0.0761', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4799', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '25.11', 'epoch': '0.02813'}
+
+ 67%|██████▋   | 40/60 [13:17<07:09, 21.49s/it]
+ 68%|██████▊   | 41/60 [13:34<06:21, 20.08s/it]
+                                               
+{'loss': '1.937e-07', 'grad_norm': '0.9681', 'learning_rate': '5e-06', 'num_tokens': '6.094e+04', 'completions/mean_length': '51', 'completions/min_length': '31', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '51', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.2866', 'rewards/iou_reward/std': '0.05841', 'reward': '0.2866', 'reward_std': '0.05841', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4863', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.69', 'epoch': '0.02883'}
+
+ 68%|██████▊   | 41/60 [13:34<06:21, 20.08s/it]
+ 70%|███████   | 42/60 [13:49<05:38, 18.78s/it]
+                                               
+{'loss': '-4.917e-07', 'grad_norm': '1.862', 'learning_rate': '5e-06', 'num_tokens': '6.233e+04', 'completions/mean_length': '34.75', 'completions/min_length': '28', 'completions/max_length': '55', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '34.75', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '55', 'rewards/iou_reward/mean': '0.4904', 'rewards/iou_reward/std': '0.0472', 'reward': '0.4904', 'reward_std': '0.0472', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4728', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.67', 'epoch': '0.02954'}
+
+ 70%|███████   | 42/60 [13:49<05:38, 18.78s/it]
+ 72%|███████▏  | 43/60 [14:10<05:27, 19.26s/it]
+                                               
+{'loss': '0', 'grad_norm': '0', 'learning_rate': '5e-06', 'num_tokens': '6.382e+04', 'completions/mean_length': '57', 'completions/min_length': '30', 'completions/max_length': '84', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '57', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '84', 'rewards/iou_reward/mean': '0.2', 'rewards/iou_reward/std': '0', 'reward': '0.2', 'reward_std': '0', 'frac_reward_zero_std': '1', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.559', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.29', 'epoch': '0.03024'}
+
+ 72%|███████▏  | 43/60 [14:10<05:27, 19.26s/it]
+ 73%|███████▎  | 44/60 [14:26<04:53, 18.34s/it]
+                                               
+{'loss': '-5.96e-08', 'grad_norm': '0.8468', 'learning_rate': '5e-06', 'num_tokens': '6.522e+04', 'completions/mean_length': '37.25', 'completions/min_length': '30', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '37.25', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.4505', 'rewards/iou_reward/std': '0.3246', 'reward': '0.4505', 'reward_std': '0.3246', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3868', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.12', 'epoch': '0.03094'}
+
+ 73%|███████▎  | 44/60 [14:26<04:53, 18.34s/it]
+ 75%|███████▌  | 45/60 [14:51<05:06, 20.43s/it]
+                                               
+{'loss': '2.98e-07', 'grad_norm': '1.054', 'learning_rate': '5e-06', 'num_tokens': '6.677e+04', 'completions/mean_length': '72.25', 'completions/min_length': '31', 'completions/max_length': '114', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '72.25', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '114', 'rewards/iou_reward/mean': '0.3032', 'rewards/iou_reward/std': '0.08026', 'reward': '0.3032', 'reward_std': '0.08026', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0.5', 'reward_audit/parse_valid': '1', 'entropy': '0.5692', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '25.2', 'epoch': '0.03165'}
+
+ 75%|███████▌  | 45/60 [14:51<05:06, 20.43s/it]
+ 77%|███████▋  | 46/60 [15:08<04:28, 19.20s/it]
+                                               
+{'loss': '-1.006e-07', 'grad_norm': '0.8846', 'learning_rate': '5e-06', 'num_tokens': '6.817e+04', 'completions/mean_length': '37.75', 'completions/min_length': '31', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '37.75', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.5536', 'rewards/iou_reward/std': '0.3028', 'reward': '0.5536', 'reward_std': '0.3028', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5051', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.24', 'epoch': '0.03235'}
+
+ 77%|███████▋  | 46/60 [15:08<04:28, 19.20s/it]
+ 78%|███████▊  | 47/60 [15:28<04:13, 19.48s/it]
+                                               
+{'loss': '-2.682e-07', 'grad_norm': '0.8499', 'learning_rate': '5e-06', 'num_tokens': '6.968e+04', 'completions/mean_length': '62.75', 'completions/min_length': '55', 'completions/max_length': '82', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '62.75', 'completions/min_terminated_length': '55', 'completions/max_terminated_length': '82', 'rewards/iou_reward/mean': '0.2987', 'rewards/iou_reward/std': '0.08085', 'reward': '0.2987', 'reward_std': '0.08085', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5861', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '20.05', 'epoch': '0.03305'}
+
+ 78%|███████▊  | 47/60 [15:28<04:13, 19.48s/it]
+ 80%|████████  | 48/60 [15:53<04:14, 21.18s/it]
+                                               
+{'loss': '-5.96e-08', 'grad_norm': '1.061', 'learning_rate': '5e-06', 'num_tokens': '7.122e+04', 'completions/mean_length': '71.5', 'completions/min_length': '31', 'completions/max_length': '112', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '71.5', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '112', 'rewards/iou_reward/mean': '0.4128', 'rewards/iou_reward/std': '0.2792', 'reward': '0.4128', 'reward_std': '0.2792', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5187', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '25.06', 'epoch': '0.03376'}
+
+ 80%|████████  | 48/60 [15:53<04:14, 21.18s/it]
+ 82%|████████▏ | 49/60 [16:05<03:21, 18.35s/it]
+                                               
+{'loss': '-1.341e-07', 'grad_norm': '0.8523', 'learning_rate': '5e-06', 'num_tokens': '7.26e+04', 'completions/mean_length': '30.25', 'completions/min_length': '30', 'completions/max_length': '31', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30.25', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '31', 'rewards/iou_reward/mean': '0.6766', 'rewards/iou_reward/std': '0.3189', 'reward': '0.6766', 'reward_std': '0.3189', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3223', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.66', 'epoch': '0.03446'}
+
+ 82%|████████▏ | 49/60 [16:05<03:21, 18.35s/it]
+ 83%|████████▎ | 50/60 [16:21<02:56, 17.67s/it]
+                                               
+{'loss': '-1.341e-07', 'grad_norm': '1.242', 'learning_rate': '5e-06', 'num_tokens': '7.403e+04', 'completions/mean_length': '44.75', 'completions/min_length': '31', 'completions/max_length': '59', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '44.75', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '59', 'rewards/iou_reward/mean': '0.6697', 'rewards/iou_reward/std': '0.2302', 'reward': '0.6697', 'reward_std': '0.2302', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5352', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16', 'epoch': '0.03516'}
+
+ 83%|████████▎ | 50/60 [16:21<02:56, 17.67s/it]
+ 85%|████████▌ | 51/60 [16:46<02:58, 19.84s/it]
+                                               
+{'loss': '2.235e-07', 'grad_norm': 'nan', 'learning_rate': '5e-06', 'num_tokens': '7.558e+04', 'completions/mean_length': '71.25', 'completions/min_length': '30', 'completions/max_length': '112', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '71.25', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '112', 'rewards/iou_reward/mean': '0.3893', 'rewards/iou_reward/std': '0.1118', 'reward': '0.3893', 'reward_std': '0.1118', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4515', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '24.83', 'epoch': '0.03586'}
+
+ 85%|████████▌ | 51/60 [16:46<02:58, 19.84s/it]
+ 87%|████████▋ | 52/60 [17:02<02:29, 18.74s/it]
+                                               
+{'loss': '1.49e-07', 'grad_norm': '0.7232', 'learning_rate': '5e-06', 'num_tokens': '7.703e+04', 'completions/mean_length': '50.25', 'completions/min_length': '30', 'completions/max_length': '57', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '50.25', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '57', 'rewards/iou_reward/mean': '0.519', 'rewards/iou_reward/std': '0.2441', 'reward': '0.519', 'reward_std': '0.2441', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.5347', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.08', 'epoch': '0.03657'}
+
+ 87%|████████▋ | 52/60 [17:02<02:29, 18.74s/it]
+ 88%|████████▊ | 53/60 [17:29<02:29, 21.41s/it]
+                                               
+{'loss': '4.47e-08', 'grad_norm': '0.5448', 'learning_rate': '5e-06', 'num_tokens': '7.875e+04', 'completions/mean_length': '115.5', 'completions/min_length': '110', 'completions/max_length': '128', 'completions/clipped_ratio': '0.25', 'completions/mean_terminated_length': '111.3', 'completions/min_terminated_length': '110', 'completions/max_terminated_length': '112', 'rewards/iou_reward/mean': '0.2709', 'rewards/iou_reward/std': '0.2156', 'reward': '0.2709', 'reward_std': '0.2156', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.75', 'entropy': '0.546', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '27.56', 'epoch': '0.03727'}
+
+ 88%|████████▊ | 53/60 [17:29<02:29, 21.41s/it]
+ 90%|█████████ | 54/60 [17:41<01:51, 18.62s/it]
+                                               
+{'loss': '1.565e-07', 'grad_norm': '1.494', 'learning_rate': '5e-06', 'num_tokens': '8.013e+04', 'completions/mean_length': '30.75', 'completions/min_length': '30', 'completions/max_length': '31', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30.75', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '31', 'rewards/iou_reward/mean': '0.6639', 'rewards/iou_reward/std': '0.3101', 'reward': '0.6639', 'reward_std': '0.3101', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.442', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '12', 'epoch': '0.03797'}
+
+ 90%|█████████ | 54/60 [17:41<01:51, 18.62s/it]
+ 92%|█████████▏| 55/60 [17:58<01:29, 17.87s/it]
+                                               
+{'loss': '-2.98e-08', 'grad_norm': '0.5549', 'learning_rate': '5e-06', 'num_tokens': '8.156e+04', 'completions/mean_length': '44.75', 'completions/min_length': '31', 'completions/max_length': '59', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '44.75', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '59', 'rewards/iou_reward/mean': '0.4528', 'rewards/iou_reward/std': '0.1959', 'reward': '0.4528', 'reward_std': '0.1959', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4347', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.05', 'epoch': '0.03868'}
+
+ 92%|█████████▏| 55/60 [17:58<01:29, 17.87s/it]
+ 93%|█████████▎| 56/60 [18:14<01:09, 17.40s/it]
+                                               
+{'loss': '-1.788e-07', 'grad_norm': '1.176', 'learning_rate': '5e-06', 'num_tokens': '8.297e+04', 'completions/mean_length': '37', 'completions/min_length': '30', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '37', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.3349', 'rewards/iou_reward/std': '0.08993', 'reward': '0.3349', 'reward_std': '0.08993', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4756', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '16.23', 'epoch': '0.03938'}
+
+ 93%|█████████▎| 56/60 [18:14<01:09, 17.40s/it]
+ 95%|█████████▌| 57/60 [18:30<00:50, 16.92s/it]
+                                               
+{'loss': '-1.192e-07', 'grad_norm': '1.033', 'learning_rate': '5e-06', 'num_tokens': '8.438e+04', 'completions/mean_length': '37.75', 'completions/min_length': '31', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '37.75', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.3841', 'rewards/iou_reward/std': '0.1246', 'reward': '0.3841', 'reward_std': '0.1246', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.4384', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.72', 'epoch': '0.04008'}
+
+ 95%|█████████▌| 57/60 [18:30<00:50, 16.92s/it]
+ 97%|█████████▋| 58/60 [18:46<00:33, 16.60s/it]
+                                               
+{'loss': '1.341e-07', 'grad_norm': '0.5129', 'learning_rate': '5e-06', 'num_tokens': '8.578e+04', 'completions/mean_length': '37.75', 'completions/min_length': '31', 'completions/max_length': '58', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '37.75', 'completions/min_terminated_length': '31', 'completions/max_terminated_length': '58', 'rewards/iou_reward/mean': '0.6802', 'rewards/iou_reward/std': '0.1345', 'reward': '0.6802', 'reward_std': '0.1345', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.3129', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '15.77', 'epoch': '0.04079'}
+
+ 97%|█████████▋| 58/60 [18:46<00:33, 16.60s/it]
+ 98%|█████████▊| 59/60 [19:13<00:19, 19.83s/it]
+                                               
+{'loss': '5.96e-08', 'grad_norm': '0.6645', 'learning_rate': '5e-06', 'num_tokens': '8.737e+04', 'completions/mean_length': '82.5', 'completions/min_length': '58', 'completions/max_length': '128', 'completions/clipped_ratio': '0.25', 'completions/mean_terminated_length': '67.33', 'completions/min_terminated_length': '58', 'completions/max_terminated_length': '86', 'rewards/iou_reward/mean': '0.433', 'rewards/iou_reward/std': '0.3173', 'reward': '0.433', 'reward_std': '0.3173', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '0.75', 'entropy': '0.549', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '27.25', 'epoch': '0.04149'}
+
+ 98%|█████████▊| 59/60 [19:13<00:19, 19.83s/it]
+100%|██████████| 60/60 [19:27<00:00, 17.97s/it]
+                                               
+{'loss': '-2.384e-07', 'grad_norm': '0.9362', 'learning_rate': '5e-06', 'num_tokens': '8.875e+04', 'completions/mean_length': '30.75', 'completions/min_length': '30', 'completions/max_length': '31', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30.75', 'completions/min_terminated_length': '30', 'completions/max_terminated_length': '31', 'rewards/iou_reward/mean': '0.2579', 'rewards/iou_reward/std': '0.06691', 'reward': '0.2579', 'reward_std': '0.06691', 'frac_reward_zero_std': '0', 'reward_audit/empty_on_nonempty_gt': '0', 'reward_audit/giant_box_image_rate': '0', 'reward_audit/parse_valid': '1', 'entropy': '0.412', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '11.85', 'epoch': '0.04219'}
+
+100%|██████████| 60/60 [19:27<00:00, 17.97s/it]
+                                               
+{'train_runtime': '1167', 'train_samples_per_second': '0.206', 'train_steps_per_second': '0.051', 'train_loss': '1.686e-08', 'epoch': '0.04219'}
+
+100%|██████████| 60/60 [19:27<00:00, 17.97s/it]
+100%|██████████| 60/60 [19:27<00:00, 19.45s/it]
+E5 analysis archive: /kaggle/working/lab_day10_e5_results.zip

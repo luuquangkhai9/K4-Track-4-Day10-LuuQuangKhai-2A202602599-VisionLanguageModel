@@ -1,0 +1,12 @@
+{
+  "file": "lab_day10_e5_results.zip",
+  "sha256": "92cd6edd395342c74ff6958e78879c3d4169314c586520dba04b052ddd21b241",
+  "executed_source_sha256": {
+    "kaggle_e5.py": "06fc98b0ddf7d7790346b19ab721ee6b133f5cdc6f6f9341ada91dba86fa1fd8",
+    "e5_reward.py": "598ecfbad00ab0298fee4fb7ec4cbc6d613480b7fd4c5b911ec98b2744265df4",
+    "e5_trainer.py": "6fa735837eecf127eb135e690bcb5a9c81396b3bbd821338a0efa03eaa39c185",
+    "requirements-e5.txt": "e7113a5051f35b4d9f0c776b3d2ceff958d974e468974ed388c464552b52a98c",
+    "e5_run_config.json": "b22df4193974b424e3a90afe9b6bcfcc466f11bcd0e3230d064c1a5bb2750a47"
+  },
+  "reward_source_matches_local": true
+}

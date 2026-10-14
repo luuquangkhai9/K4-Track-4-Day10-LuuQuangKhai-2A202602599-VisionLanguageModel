@@ -23,13 +23,15 @@ từ 256 lên 512. Những thay đổi này áp dụng nhất quán giữa các 
 
 Mỗi lượt train khởi tạo độc lập từ model gốc. Đánh giá sau khi nạp lại adapter và
 projector vào base mới. E4 chọn setup bằng toàn bộ validation, không chọn bằng test.
-Không thực hiện E5/GRPO.
+E5/GRPO chạy riêng từ checkpoint E3; phần bonus bên dưới ghi kết quả và giới hạn của lượt RL.
 
 Nguồn số liệu là `lab_day10_results.zip`; mã nguồn thực chạy được lưu tại
 [report/provenance](report/provenance). Chấm lại 10 cặp experiment/split từ output thô
 bằng scorer gốc cho kết quả khớp, gồm cả CI95; mốc E4 100% được đối chiếu với E3.
 Phân tích bổ sung tái tạo bằng `python analyze_results.py`; số liệu chi tiết ở
 [verified_analysis.json](report/analysis/verified_analysis.json).
+E5 tái tạo bằng `python analyze_e5_results.py`; bảng tổng hợp đủ E0–E5 nằm ở
+[summary_with_e5.csv](report/analysis/summary_with_e5.csv).
 
 ## Bảng tổng hợp
 
@@ -45,10 +47,12 @@ làm tròn; file evidence giữ độ chính xác đầy đủ.
 | E3 | E2 + LoRA ViT | 148.426.752 | 6,8609 | 62,2970 | 0,4332 | [0,3886; 0,4760] | 0,7653 | 0,2902 | 0,3380 | 0,7260 |
 | E4 10% | E3, 142 ảnh train | 148.426.752 | 6,5884 | 61,6317 | 0,2833 | [0,2498; 0,3173] | 1,7492 | 0,1919 | 0,2263 | 0,5248 |
 | E4 100% | E3, 1.422 ảnh train; dùng lại E3 | 148.426.752 | 6,8609 | 62,2970 | 0,4332 | [0,3886; 0,4760] | 0,7653 | 0,2902 | 0,3380 | 0,7260 |
+| E5 | E3 → GRPO LoRA; projector đóng băng | 39.321.600 | 4,8101 | 19,4600 | 0,4356 | [0,3943; 0,4777] | 1,0354 | 0,3011 | 0,3471 | 0,7365 |
 
 Nguồn: [E0](report/evidence/e0.json), [E1](report/evidence/e1.json),
 [E2](report/evidence/e2.json), [E3](report/evidence/e3.json),
-[E4 10%](report/evidence/e4_data_size_10.json), [E4 100%](report/evidence/e4_data_size_100.json).
+[E4 10%](report/evidence/e4_data_size_10.json), [E4 100%](report/evidence/e4_data_size_100.json),
+[E5](report/evidence/e5.json).
 `peak_vram_gb` được đo bằng `max_memory_allocated()/2**30`, nên đơn vị thực là GiB,
 chỉ phản ánh bộ nhớ tensor PyTorch được cấp phát. E0 đo đỉnh inference; E1–E4 đo đỉnh
 train. Các số này không phải tổng VRAM theo `nvidia-smi`.
@@ -60,10 +64,13 @@ train. Các số này không phải tổng VRAM theo `nvidia-smi`.
 | E2 | 100% | 188 | 292 | 395 | 20,9179 | 21,9977 |
 | E3 | 100% | 227 | 238 | 356 | 20,8533 | 21,4779 |
 | E4 10% | 100% | 186 | 544 | 397 | 31,4008 | 30,6781 |
+| E5 | 100% | 252 | 322 | 331 | 25,8879 | 24,7218 |
 
 Tổng train của bốn lượt là 228,35 phút; inference val/test của năm lượt là 262,86 phút.
 Tổng các bộ đếm này là 491,21 phút, khoảng **8,19 giờ**, chưa gồm toàn bộ thời gian
 tải/nạp model và thao tác chuẩn bị. E4 100% dùng lại E3, không tính hai lần.
+E5 bổ sung 19,46 phút GRPO và 50,61 phút inference, tổng khoảng 70,07 phút. Tính cả
+E5, tổng các bộ đếm thời gian khoảng **9,35 giờ**; vẫn chưa gồm toàn bộ overhead.
 
 ![F1 tổng và từng lớp](report/analysis/f1_comparison.png)
 
@@ -215,7 +222,7 @@ không đủ để khẳng định tốc độ luôn tương đương ở mọi 
 E3 so với E2 tăng F1 **0,0795**, FP/ảnh tiếp tục giảm còn 0,7653. LoRA ViT thêm
 6,29M tham số, **0,1355 GiB**, **9,6178 phút**. E3 dùng VRAM train cao nhất (6,8609
 GiB) và lâu nhất: dù adapter ViT nhỏ, backward phải đi qua các khối vision. E3 vẫn
-vừa T4 và có F1 tốt nhất, nên chọn khi ưu tiên chất lượng. E1 dùng VRAM thấp nhất;
+vừa T4 và có F1 tốt nhất trong E1–E3, nên chọn khi ưu tiên chất lượng. E1 dùng VRAM thấp nhất;
 E2 là phương án trung gian.
 
 CI95 riêng E1/E2 và E2/E3 giao nhau ở đoạn hẹp; không dùng điều này để kết luận
@@ -252,7 +259,7 @@ bất định khi các frame tương quan. Không coi 311 ảnh là 311 phiên q
 | `vlc-2025-02-19-17` | 83 | 183 | 0,2461 | 0,3429 | 0,3910 |
 
 E3 cao hơn E2 ở cả ba session, nhưng session 15 ảnh quá nhỏ để kết luận mạnh. Kết
-luận được hỗ trợ: với seed 42, 300 bước và split hiện tại, E3 tốt nhất. Chưa chứng
+luận được hỗ trợ: với seed 42, 300 bước và split hiện tại, E3 tốt nhất trong các setup SFT. Chưa chứng
 minh thứ hạng giữ nguyên trên nhiều seed, đường mới hay thời tiết khác.
 
 ### Câu 9 — Phân tích lỗi theo lớp: lớp nào kém nhất và vì sao (kích thước box, số mẫu, ngữ nghĩa)? Kèm ảnh minh hoạ.
@@ -356,11 +363,141 @@ thí nghiệm **giữ số bước**, không phải giữ số epoch. E4 100% kh
 
 ![Loss và tài nguyên](report/analysis/loss_and_resources.png)
 
+## Bonus E5 — GRPO với reward IoU
+
+### Thiết lập, reward và kiểm chứng lượt chạy
+
+E5 bắt đầu từ **E3 đã được chọn bằng validation**, không từ model gốc hay E4 10%.
+Giữ base revision và các adapter LoRA LLM/ViT của E3, nạp projector đã học rồi
+đóng băng projector trong GRPO. Vì vậy E5 cập nhật **39.321.600** tham số LoRA,
+thay vì 148.426.752 tham số trainable của SFT E3. Đây là một thiết lập RL tiếp tục
+adapter, không phải ablation E4 chỉ đổi một biến.
+
+TRL `1.9.2`, `num_generations=4`, generation batch=4, microbatch=1, accumulation=4,
+learning rate cố định `5e-6`, `beta=0`, `use_vllm=False`, `loss_type="grpo"`, reward
+chuẩn hóa theo nhóm, temperature=1 và seed 42. Giới hạn rollout train là **128 token**;
+greedy val/test vẫn **512 token** như SFT để so sánh cùng quy ước sinh.
+
+Reward Python thuần ghép tham lam một-một, cùng lớp, IoU ≥ 0,5:
+
+```text
+JSON/box không hợp lệ: 0
+GT và prediction cùng rỗng: 1
+Các trường hợp khác: 0.2 + 0.8 * sum(IoU của cặp khớp) / max(n_gt, n_pred, 1)
+```
+
+Box sai lớp, box thừa và duplicate không tạo thêm cặp khớp; mẫu số phạt số lượng
+box thừa. `[]` trên GT có object nhận 0,2 theo đề, nên cần kiểm tra model có khai
+thác phần thưởng định dạng hay không. Bộ [test reward](e5_checks/test_reward.py)
+bao phủ dự đoán hoàn hảo, JSON hỏng, sai lớp, box thừa/trùng, rỗng và ngưỡng IoU.
+Một nhãn train height=0 vẫn bỏ khỏi reward GT, cùng chính sách làm đáp án SFT.
+
+Lượt chạy hoàn thành **60 global step của trainer**, nhưng chỉ **58 cập nhật optimizer
+thực sự**: AMP bỏ qua step 17 và 51. Không gọi đây là 60 cập nhật thành công.
+Log kiểm tra ghi 696 tensor trainable giữ chính xác giá trị fp32 khi khởi tạo và
+24 tensor projector không đổi sau GRPO. VRAM train đỉnh **4,8101 GiB**, thời gian
+**19,4600 phút**. Các bằng chứng: [run.json](report/resources/e5/run.json),
+[precision check](report/resources/e5/precision_check.json),
+[projector check](report/resources/e5/projector_frozen_check.json),
+[optimizer steps](report/resources/e5/optimizer_steps.jsonl),
+[args thực chạy](report/resources/e5/grpo_args.json),
+[log GPU](report/logs/e5_train.txt).
+
+Có 240 completion trong 60 nhóm của **60 ảnh train khác nhau**. Chấm lại toàn bộ
+240 reward từ raw completion và GT train cho kết quả khớp log. Chấm lại E5 val/test
+và E3 baseline cho metric/CI95 khớp evidence. Mã nguồn thực chạy nằm trong
+[provenance E5](report/provenance/e5); kết quả đối chiếu ở
+[e5_verified_analysis.json](report/analysis/e5_verified_analysis.json).
+
+### So với SFT: chưa có bằng chứng cải thiện F1 rõ ràng
+
+| Chỉ số test | E3 SFT | E5 GRPO | Thay đổi E5 − E3 |
+|---|---:|---:|---:|
+| Micro F1 | 0,4332 | 0,4356 | +0,0024 |
+| CI95 chính thức | [0,3886;0,4760] | [0,3943;0,4777] | — |
+| Precision | 0,4882 | 0,4390 | −0,0491 |
+| Recall | 0,3894 | 0,4322 | +0,0429 |
+| TP | 227 | 252 | +25 |
+| FP | 238 | 322 | +84 |
+| FN | 356 | 331 | −25 |
+| FP/ảnh | 0,7653 | 1,0354 | +0,2701 |
+| F1 pothole | 0,2902 | 0,3011 | +0,0109 |
+| F1 crack | 0,3380 | 0,3471 | +0,0091 |
+| F1 manhole | 0,7260 | 0,7365 | +0,0105 |
+
+E5 tăng F1 chỉ **0,002403**, tương đương khoảng **0,24 điểm phần trăm**. Paired
+bootstrap 10.000 lần theo ảnh, seed 42, cho CI95 của ΔF1 **[−0,0242; +0,0295]**,
+chứa 0. Do đó không kết luận GRPO vượt SFT từ lượt này. Validation cũng giảm nhẹ:
+E3=0,3477, E5=0,3432. Vẫn ưu tiên **E3 làm baseline SFT chính**, không chọn E5 vì
+chênh lệch test nhỏ. Giới hạn một seed và ba session test vẫn áp dụng.
+
+E5 sinh 574 box so với 465 của E3. Recall tăng nhưng precision giảm; trong 84 FP
+tăng thêm, **72 là pothole**. F1 từng lớp đều nhích lên không làm micro-F1 tăng tương
+ứng vì micro tính trực tiếp từ TP/FP/FN tổng, không phải trung bình cố định của F1 lớp.
+
+| Session test | Ảnh | E3 F1 | E5 F1 |
+|---|---:|---:|---:|
+| `num-4` | 15 | 0,5000 | 0,5833 |
+| `vlc-2025-02-18-23` | 213 | 0,4480 | 0,4262 |
+| `vlc-2025-02-19-17` | 83 | 0,3910 | 0,4364 |
+
+Hai session tăng, session lớn nhất giảm: cải thiện không đồng nhất. Session 15 ảnh
+không đủ để suy rộng từ mức tăng 0,0833 đó. CI bootstrap theo ảnh chưa xử lý tương
+quan frame hoặc biến thiên seed train.
+
+### Reward hacking và những dấu hiệu trong output
+
+Reward rollout trung bình **0,4084**. Trung bình 10 nhóm đầu là 0,3905, 10 nhóm cuối
+là 0,4386; các nhóm dùng **ảnh khác nhau**, nên không coi chênh lệch đó là đánh giá
+trước/sau trên một tập cố định. **5/60 nhóm (8,33%)** có reward giống nhau cho cả
+bốn completion, nên không cung cấp tín hiệu relative advantage trong nhóm.
+
+- **Không có completion `[]` trên ảnh có GT** trong 240 rollout và 311 output greedy
+  test. Không thấy hiện tượng model bỏ tất cả box để lấy reward định dạng 0,2.
+- **2/240 rollout (0,83%)** có box chiếm ít nhất 25% ảnh, cả hai ở cùng ảnh train
+  `20250223_143908`. Reward chỉ 0,3855 và 0,2847; đây là dấu hiệu cần quan sát,
+  chưa chứng minh model khai thác box khổng lồ. Greedy test không có box vượt ngưỡng này.
+- **10/240 rollout (4,17%)** có JSON hỏng và đều chạm giới hạn 128 token. Greedy
+  test 512 token vẫn parse hợp lệ 100% và không chạm giới hạn. Khác biệt này phải
+  được tính đến khi đọc log train, không coi mọi JSON bị cắt là suy giảm định dạng test.
+- Reward IoU trung bình trên greedy test tăng từ **0,4625 lên 0,4689**, nhưng FP
+  tăng 238→322 và micro-F1 gần như không đổi. Reward tăng không bảo đảm chỉ số phát
+  hiện tổng thể tốt hơn. Chưa đủ bằng chứng gọi đây là reward hacking có hệ thống;
+  có xu hướng dự đoán nhiều hơn và còn những output lặp cần kiểm soát.
+
+Ví dụ rõ nhất ở `vlcsnap-2025-02-18-23h30m26s420`: GT chỉ có một crack. E3 trả một
+box crack không khớp (TP=0, FP=1, FN=1); E5 trả một crack và **10 pothole lặp theo
+cột**, tất cả không khớp (TP=0, FP=11, FN=1), dù JSON hợp lệ. Điều này minh họa
+overprediction/sinh lặp, không phải output `[]` hay một box bao trùm ảnh.
+
+![E5 sinh thêm 10 pothole không khớp](report/figures/e5/4_vlcsnap-2025-02-18-23h30m26s420.png)
+
+E5 cũng có ảnh khớp cả ba lớp, TP=3, FP=0, FN=0; các ảnh được chọn chỉ để phân tích
+đúng/sai, không đại diện ngẫu nhiên cho test:
+
+![E5 đúng cả crack, manhole và pothole](report/figures/e5/1_vlcsnap-2025-02-18-23h10m48s405.png)
+
+Caption và raw output của sáu ảnh E5 nằm ở [captions.json](report/figures/e5/captions.json).
+GRPO loss trung bình gần 0 (`train_loss≈1,69e-8`) **không phải** bằng chứng model đã
+hội tụ hoặc đạt grounding hoàn hảo: loss theo advantage chuẩn hóa có thể triệt tiêu
+trung bình khi policy ratio gần 1 trong một iteration, trong khi gradient vẫn khác
+0. Log có gradient hữu hạn ở nhiều bước và 58 cập nhật, nên đánh giá hiệu quả bằng
+reward audit và F1/CI, không áp cách đọc loss SFT cho loss GRPO.
+
+![So sánh E3/E5 và reward rollout](report/analysis/e5_comparison.png)
+
+Kết luận bonus: đã triển khai reward đúng và có test, chạy GRPO với log, phân tích
+reward hacking và so sánh SFT bằng số kèm CI. Lượt này chứng minh pipeline RL chạy
+được; **chưa chứng minh E5 cải thiện F1 đáng tin cậy**, và không tự nhận thêm điểm
+chỉ vì F1 point estimate nhích lên.
+
 ## Nhìn lại
 
 QLoRA cải thiện rõ so với zero-shot; mở projector và LoRA ViT cải thiện tiếp trong
 giới hạn T4 của lượt này. Nhưng E3 chỉ khớp 227/583 GT, còn 356 FN, nên chưa đủ tin
 cậy để suy rộng thành một hệ thống phát hiện hư hại ngoài tập đánh giá hiện tại.
+E5 tăng TP lên 252 nhưng cũng tăng FP lên 322; chênh lệch F1 so với E3 nằm trong
+bất định của paired CI, nên giữ kết luận thận trọng về lợi ích của GRPO.
 
 - Dữ liệu có một box train chiều cao bằng 0; thống kê nhãn gốc và đáp án SFT khác
   đúng một object. Scorer không sửa lỗi nhãn đó.

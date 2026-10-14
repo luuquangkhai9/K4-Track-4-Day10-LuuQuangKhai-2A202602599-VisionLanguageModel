@@ -70,16 +70,31 @@ def find_sft(input_root, explicit=None):
     return select_sft(candidates[0])
 
 
+def verify_optional_source_splits(source, splits):
+    """Checkpoint exports may omit data/: compare original labels only if present."""
+    checks = {}
+    for split, rows in splits.items():
+        path = Path(source) / f"data/splits/{split}.jsonl"
+        if not path.is_file():
+            checks[split] = "not_available_in_checkpoint_input"
+            print(f"SFT {split} split not exported; using freshly prepared official split.", flush=True)
+            continue
+        if rows != read_jsonl(path):
+            raise ValueError(f"Prepared {split} records/labels differ from the SFT source")
+        checks[split] = "exact_records_match"
+    return checks
+
+
 def prepare():
     cfg = config()
     source, best, run = find_sft(cfg["input_root"], cfg.get("sft_source"))
+    if run["config"]["prompt"] != PROMPT:
+        raise ValueError("Current prompt differs from the saved SFT prompt; preserve it for fair evaluation")
     flag, dataset = lab.find_dataset(cfg["input_root"], cfg.get("data_source"))
     lab.command([sys.executable, "scripts/prepare_data.py", flag, dataset])
     splits = {s: read_jsonl(ROOT / f"data/splits/{s}.jsonl") for s in ("train", "val", "test")}
     assert_disjoint_sessions(splits)
-    for split, rows in splits.items():
-        if rows != read_jsonl(source / f"data/splits/{split}.jsonl"):
-            raise ValueError(f"Prepared {split} records/labels differ from the SFT source")
+    source_split_checks = verify_optional_source_splits(source, splits)
     meta = load_json(ROOT / "data/splits/meta.json")
     if meta["dataset_version"] != run["config"]["dataset_version"]:
         raise ValueError("Dataset version differs from SFT checkpoint")
@@ -117,6 +132,8 @@ def prepare():
         "selected_by": "original full validation micro F1", "baseline": best,
         "test_used_for_selection": False, "baseline_run": run,
         "dataset_meta": meta, "degenerate_training_objects_skipped": train_bad,
+        "source_split_checks": source_split_checks,
+        "cached_sft_val_test_scores_reverified": True,
         "checkpoint_files_sha256": {
             p.name: hashlib.sha256(p.read_bytes()).hexdigest()
             for p in (source / "work" / best).rglob("*")

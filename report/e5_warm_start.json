@@ -1,0 +1,113 @@
+{
+  "selected_by": "original full validation micro F1",
+  "baseline": "e3",
+  "test_used_for_selection": false,
+  "baseline_run": {
+    "trainable_params": 148426752,
+    "peak_vram_gb": 6.860915660858154,
+    "train_minutes": 62.29697201943336,
+    "config": {
+      "name": "e3",
+      "setup": "e3",
+      "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+      "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+      "seed": 42,
+      "rank": 16,
+      "lr": 0.0002,
+      "max_steps": 300,
+      "batch_size": 1,
+      "grad_accum": 8,
+      "max_new_tokens": 512,
+      "inference_batch_size": 2,
+      "train_fraction": 1.0,
+      "prompt": "Detect all road damage: pothole, crack, and manhole. Return ONLY a JSON list of objects with keys \"label\" and \"bbox_2d\". bbox_2d is [x1,y1,x2,y2], integer coordinates normalized to 0-1000 independently for image width and height. Use only these three labels. Return [] if there are no objects. No explanations.",
+      "dataset_version": "d10-21e4070301",
+      "code_sha256": "278000b8051125fc9e40407e9fb259a22d5bc51c4abc96d7cebfc06ed16667c5"
+    },
+    "optimizer_steps": 300,
+    "attempts": 302,
+    "n_train_images": 1422,
+    "status": "trained",
+    "vram_unit": "GiB (2**30 bytes)"
+  },
+  "dataset_meta": {
+    "dataset_version": "d10-21e4070301",
+    "seed": "day10",
+    "salt": 0,
+    "classes": [
+      "pothole",
+      "crack",
+      "manhole"
+    ],
+    "counts": {
+      "train": {
+        "images": 1422,
+        "boxes": {
+          "pothole": 1074,
+          "crack": 1750,
+          "manhole": 691
+        }
+      },
+      "val": {
+        "images": 276,
+        "boxes": {
+          "pothole": 66,
+          "crack": 470,
+          "manhole": 103
+        }
+      },
+      "test": {
+        "images": 311,
+        "boxes": {
+          "pothole": 121,
+          "crack": 299,
+          "manhole": 163
+        }
+      }
+    },
+    "groups": {
+      "vlc-2025-02-19-13": "train",
+      "vlc-2025-02-19-15": "train",
+      "phone-20250216": "train",
+      "num-1": "train",
+      "phone-20250219": "train",
+      "num-0": "train",
+      "vlc-2025-03-16-15": "train",
+      "vlc-2025-02-19-14": "train",
+      "vlc-2025-02-26-20": "train",
+      "vlc-2025-02-18-18": "val",
+      "num-4": "test",
+      "vlc-2025-02-19-17": "test",
+      "vlc-2025-02-18-17": "train",
+      "vlc-2025-02-18-23": "test",
+      "phone-20250223": "train",
+      "num-3": "train",
+      "vlc-2025-02-19-16": "val",
+      "num-2": "train"
+    }
+  },
+  "degenerate_training_objects_skipped": [
+    {
+      "image_id": "vlcsnap-00058",
+      "object": {
+        "label": "crack",
+        "yolo": [
+          0.639062,
+          0.786111,
+          0.003125,
+          0.0
+        ]
+      }
+    }
+  ],
+  "source_split_checks": {
+    "train": "not_available_in_checkpoint_input",
+    "val": "not_available_in_checkpoint_input",
+    "test": "not_available_in_checkpoint_input"
+  },
+  "cached_sft_val_test_scores_reverified": true,
+  "checkpoint_files_sha256": {
+    "projector.pt": "95061d512e858e9b98d8646442a2b1ec30c3042e510cb118bd75b0a9dd0c05cf",
+    "adapter_model.safetensors": "37e1abd546c9d88923e798092348da64066c1424ee7b5c1a8bfbb44b3332c5a9"
+  }
+}

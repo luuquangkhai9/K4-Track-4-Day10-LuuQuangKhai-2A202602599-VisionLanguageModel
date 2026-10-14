@@ -9,7 +9,7 @@
 [PASS] dataset_version nhất quán — ['d10-21e4070301']
 [PASS] khớp data/splits/meta.json
 [PASS] REPORT.md đã điền — còn chuỗi '<điền'
-[FAIL] git commits — 1/5
+[FAIL] git commits — 2/5
 [PASS] git forbidden files
 
 1 FAIL, 0 WARN

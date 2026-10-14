@@ -1,0 +1,24 @@
+{
+  "status": "finished",
+  "smoke_run": false,
+  "config": {
+    "input_root": "/kaggle/input",
+    "sft_source": "/kaggle/input/datasets/luuquangkhai/outpute04/day10",
+    "data_source": null,
+    "max_steps": 60,
+    "max_completion_length": 128,
+    "learning_rate": 5e-06,
+    "baseline": "e3",
+    "baseline_checkpoint": "/kaggle/input/datasets/luuquangkhai/outpute04/day10/work/e3",
+    "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+    "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "dataset_version": "d10-21e4070301",
+    "setup": "e3",
+    "seed": 42,
+    "name": "e5",
+    "max_new_tokens": 512,
+    "inference_batch_size": 2,
+    "train_projector": false,
+    "train_policy": "Continue SFT LoRA LLM/ViT; freeze restored SFT projector"
+  }
+}

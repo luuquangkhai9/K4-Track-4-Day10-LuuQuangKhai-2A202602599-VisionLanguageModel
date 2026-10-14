@@ -1,0 +1,6 @@
+{
+  "verified": true,
+  "trainable_tensors": 696,
+  "trainable_params": 39321600,
+  "precision": "fp32 trainables; fp16 CUDA autocast"
+}

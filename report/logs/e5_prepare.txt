@@ -1,0 +1,9 @@
+dataset_version : d10-21e4070301
+  train  1422 ảnh  boxes={'pothole': 1074, 'crack': 1750, 'manhole': 691}
+  val     276 ảnh  boxes={'pothole': 66, 'crack': 470, 'manhole': 103}
+  test    311 ảnh  boxes={'pothole': 121, 'crack': 299, 'manhole': 163}
+SFT train split not exported; using freshly prepared official split.
+SFT val split not exported; using freshly prepared official split.
+SFT test split not exported; using freshly prepared official split.
+E5 starts from E3 at /kaggle/input/datasets/luuquangkhai/outpute04/day10/work/e3
+E5 analysis archive: /kaggle/working/lab_day10_e5_results.zip

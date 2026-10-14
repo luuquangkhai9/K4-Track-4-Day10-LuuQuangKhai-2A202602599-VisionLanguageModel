@@ -1,0 +1,8 @@
+{
+  "trl": "1.9.2",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.19.0",
+  "peft": "0.21.2",
+  "bitsandbytes": "0.50.2",
+  "datasets": "5.1.0"
+}
