@@ -1,0 +1,26 @@
+{
+  "image_id": "vlcsnap-2025-02-19-17h03m28s017",
+  "per_class": {
+    "pothole": [
+      1,
+      1,
+      4
+    ],
+    "crack": [
+      0,
+      0,
+      0
+    ],
+    "manhole": [
+      0,
+      0,
+      0
+    ],
+    "other": [
+      0,
+      0,
+      0
+    ]
+  },
+  "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[403,617,450,656]},{\"label\":\"pothole\",\"bbox_2d\":[481,619,544,667]}]"
+}

@@ -1,0 +1,10 @@
+{
+  "val": {
+    "minutes": 22.74206402966667,
+    "batch_size_final": 2
+  },
+  "test": {
+    "minutes": 23.010408873616658,
+    "batch_size_final": 2
+  }
+}

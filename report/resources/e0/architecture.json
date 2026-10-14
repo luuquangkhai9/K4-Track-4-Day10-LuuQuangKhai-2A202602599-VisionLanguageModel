@@ -1,0 +1,8 @@
+{
+  "llm_including_embeddings": 4022468096,
+  "vit_excluding_projector": 306242560,
+  "projector": 109105152,
+  "lm_head": 0,
+  "other": 0,
+  "total_dense_equivalent": 4437815808
+}

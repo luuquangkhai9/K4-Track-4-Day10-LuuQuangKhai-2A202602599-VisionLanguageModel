@@ -1,0 +1,9 @@
+{
+  "image_id": "20250219_164838",
+  "image_tokens": 220,
+  "masked_prefix_tokens": 314,
+  "supervised_tokens": 193,
+  "answer": "[{\"label\":\"crack\",\"bbox_2d\":[309,342,520,494]},{\"label\":\"crack\",\"bbox_2d\":[172,356,355,522]},{\"label\":\"manhole\",\"bbox_2d\":[252,383,437,489]},{\"label\":\"crack\",\"bbox_2d\":[559,461,908,806]},{\"label\":\"manhole\",\"bbox_2d\":[420,464,503,542]},{\"label\":\"manhole\",\"bbox_2d\":[439,536,748,736]},{\"label\":\"crack\",\"bbox_2d\":[311,539,695,889]}]",
+  "decoded_supervised": "[{\"label\":\"crack\",\"bbox_2d\":[309,342,520,494]},{\"label\":\"crack\",\"bbox_2d\":[172,356,355,522]},{\"label\":\"manhole\",\"bbox_2d\":[252,383,437,489]},{\"label\":\"crack\",\"bbox_2d\":[559,461,908,806]},{\"label\":\"manhole\",\"bbox_2d\":[420,464,503,542]},{\"label\":\"manhole\",\"bbox_2d\":[439,536,748,736]},{\"label\":\"crack\",\"bbox_2d\":[311,539,695,889]}]<|im_end|>\n",
+  "prefix_equal": true
+}

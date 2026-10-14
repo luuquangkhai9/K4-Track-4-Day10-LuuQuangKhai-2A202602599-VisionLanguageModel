@@ -1,0 +1,16 @@
+{
+  "selected_setup": "e3",
+  "criterion": "full validation micro F1; ties prefer E1 then E2",
+  "validation_f1": {
+    "e1": 0.2264808362369338,
+    "e2": 0.3184713375796178,
+    "e3": 0.3477477477477477
+  },
+  "variable": "data_size",
+  "values": [
+    0.1,
+    1.0
+  ],
+  "baseline_100_percent_reuses": "e3",
+  "test_used_for_selection": false
+}

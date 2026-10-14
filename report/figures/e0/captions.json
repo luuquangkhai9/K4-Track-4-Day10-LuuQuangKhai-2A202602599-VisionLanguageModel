@@ -1,0 +1,68 @@
+[
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m04s766",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\": \"manhole\", \"bbox_2d\": [889, 697, 1000, 776]}, {\"label\": \"manhole\", \"bbox_2d\": [47, 595, 193, 657]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e0/1_vlcsnap-2025-02-18-23h14m04s766.png",
+    "caption": "E0 TP=2 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h11m35s391",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\": \"manhole\", \"bbox_2d\": [497, 735, 620, 795]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e0/2_vlcsnap-2025-02-18-23h11m35s391.png",
+    "caption": "E0 TP=1 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m30s019",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\": \"manhole\", \"bbox_2d\": [96, 607, 253, 673]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e0/3_vlcsnap-2025-02-18-23h14m30s019.png",
+    "caption": "E0 TP=1 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m22s057",
+    "tp": 0,
+    "fp": 15,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\": \"crack\", \"bbox_2d\": [0, 700, 1000, 750]}, {\"label\": \"crack\", \"bbox_2d\": [0, 650, 1000, 700]}, {\"label\": \"crack\", \"bbox_2d\": [0, 600, 1000, 650]}, {\"label\": \"crack\", \"bbox_2d\": [0, 550, 1000, 600]}, {\"label\": \"crack\", \"bbox_2d\": [0, 500, 1000, 550]}, {\"label\": \"crack\", \"bbox_2d\": [0, 450, 1000, 500]}, {\"label\": \"crack\", \"bbox_2d\": [0, 400, 1000, 450]}, {\"label\": \"crack\", \"bbox_2d\": [0, 350, 1000, 400]}, {\"label\": \"crack\", \"bbox_2d\": [0, 300, 1000, 350]}, {\"label\": \"crack\", \"bbox_2d\": [0, 250, 1000, 300]}, {\"label\": \"crack\", \"bbox_2d\": [0, 200, 1000, 250]}, {\"label\": \"crack\", \"bbox_2d\": [0, 150, 1000, 200]}, {\"label\": \"crack\", \"bbox_2d\": [0, 100, 1000, 150]}, {\"label\": \"crack\", \"bbox_2d\": [0, 50, 1000, 100]}, {\"label\": \"crack\", \"bbox_2d\": [0, 0, 1000, 50]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e0/4_vlcsnap-2025-02-19-17h03m22s057.png",
+    "caption": "E0 TP=0 FP=15 FN=3 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m47s237",
+    "tp": 0,
+    "fp": 15,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\": \"crack\", \"bbox_2d\": [0, 720, 899, 820]}, {\"label\": \"crack\", \"bbox_2d\": [0, 550, 1000, 720]}, {\"label\": \"crack\", \"bbox_2d\": [0, 480, 1000, 600]}, {\"label\": \"crack\", \"bbox_2d\": [0, 400, 1000, 500]}, {\"label\": \"crack\", \"bbox_2d\": [0, 300, 1000, 400]}, {\"label\": \"crack\", \"bbox_2d\": [0, 200, 1000, 300]}, {\"label\": \"crack\", \"bbox_2d\": [0, 100, 1000, 200]}, {\"label\": \"crack\", \"bbox_2d\": [0, 0, 1000, 100]}, {\"label\": \"manhole\", \"bbox_2d\": [0, 550, 1000, 720]}, {\"label\": \"manhole\", \"bbox_2d\": [0, 480, 1000, 600]}, {\"label\": \"manhole\", \"bbox_2d\": [0, 400, 1000, 500]}, {\"label\": \"manhole\", \"bbox_2d\": [0, 300, 1000, 400]}, {\"label\": \"manhole\", \"bbox_2d\": [0, 200, 1000, 300]}, {\"label\": \"manhole\", \"bbox_2d\": [0, 100, 1000, 200]}, {\"label\": \"manhole\", \"bbox_2d\": [0, 0, 1000, 100]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e0/5_vlcsnap-2025-02-19-17h03m47s237.png",
+    "caption": "E0 TP=0 FP=15 FN=1 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m49s136",
+    "tp": 1,
+    "fp": 12,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\": \"manhole\", \"bbox_2d\": [480, 600, 600, 656]}, {\"label\": \"crack\", \"bbox_2d\": [650, 530, 720, 570]}, {\"label\": \"crack\", \"bbox_2d\": [680, 570, 720, 600]}, {\"label\": \"crack\", \"bbox_2d\": [720, 570, 760, 600]}, {\"label\": \"crack\", \"bbox_2d\": [760, 570, 800, 600]}, {\"label\": \"crack\", \"bbox_2d\": [700, 600, 740, 630]}, {\"label\": \"crack\", \"bbox_2d\": [740, 600, 780, 630]}, {\"label\": \"crack\", \"bbox_2d\": [780, 600, 820, 630]}, {\"label\": \"crack\", \"bbox_2d\": [820, 600, 860, 630]}, {\"label\": \"crack\", \"bbox_2d\": [860, 600, 900, 630]}, {\"label\": \"crack\", \"bbox_2d\": [900, 600, 940, 630]}, {\"label\": \"crack\", \"bbox_2d\": [940, 600, 980, 630]}, {\"label\": \"crack\", \"bbox_2d\": [980, 600, 1000, 630]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e0/6_vlcsnap-2025-02-18-23h27m49s136.png",
+    "caption": "E0 TP=1 FP=12 FN=2 valid=True"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "e1_parse_valid_at_least_095": true,
+  "e1_f1_gain_at_least_010": true,
+  "e1_f1_gain": 0.20124904163223983,
+  "all_test_predictions_present": true,
+  "status": "finished",
+  "report_and_git_checks_pending": true,
+  "smoke_run": false
+}

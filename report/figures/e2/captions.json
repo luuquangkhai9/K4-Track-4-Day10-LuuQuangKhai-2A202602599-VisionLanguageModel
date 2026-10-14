@@ -1,0 +1,68 @@
+[
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m49s136",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[470,586,609,678]},{\"label\":\"pothole\",\"bbox_2d\":[644,528,750,589]},{\"label\":\"pothole\",\"bbox_2d\":[853,583,903,633]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e2/1_vlcsnap-2025-02-18-23h27m49s136.png",
+    "caption": "E2 TP=3 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-00209",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[444,661,559,744]},{\"label\":\"manhole\",\"bbox_2d\":[744,689,844,744]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e2/2_vlcsnap-00209.png",
+    "caption": "E2 TP=2 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m52s540",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[178,533,297,583]},{\"label\":\"manhole\",\"bbox_2d\":[605,556,694,606]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e2/3_vlcsnap-2025-02-18-23h13m52s540.png",
+    "caption": "E2 TP=2 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m39s299",
+    "tp": 0,
+    "fp": 4,
+    "fn": 5,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[361,583,481,656]},{\"label\":\"pothole\",\"bbox_2d\":[456,619,523,656]},{\"label\":\"pothole\",\"bbox_2d\":[461,639,531,678]},{\"label\":\"pothole\",\"bbox_2d\":[353,683,456,750]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e2/4_vlcsnap-2025-02-19-17h05m39s299.png",
+    "caption": "E2 TP=0 FP=4 FN=5 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h26m05s423",
+    "tp": 1,
+    "fp": 4,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[431,517,609,617]},{\"label\":\"crack\",\"bbox_2d\":[528,622,734,822]},{\"label\":\"crack\",\"bbox_2d\":[278,689,381,822]},{\"label\":\"manhole\",\"bbox_2d\":[791,611,886,661]},{\"label\":\"manhole\",\"bbox_2d\":[928,667,1000,728]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e2/5_vlcsnap-2025-02-18-23h26m05s423.png",
+    "caption": "E2 TP=1 FP=4 FN=4 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m28s990",
+    "tp": 1,
+    "fp": 2,
+    "fn": 6,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[236,456,697,783]},{\"label\":\"pothole\",\"bbox_2d\":[239,553,381,644]},{\"label\":\"pothole\",\"bbox_2d\":[400,556,520,636]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e2/6_vlcsnap-2025-02-18-23h30m28s990.png",
+    "caption": "E2 TP=1 FP=2 FN=6 valid=True"
+  }
+]

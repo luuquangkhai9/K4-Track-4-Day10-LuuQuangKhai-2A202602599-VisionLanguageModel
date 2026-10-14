@@ -1,0 +1,2801 @@
+[
+  {
+    "image_id": "vlcsnap-00200",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[350,653,536,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00201",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[556,728,659,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00202",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[281,656,398,731]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00203",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[494,672,739,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00204",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[248,622,341,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00205",
+    "tp": 2,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[544,656,636,717]},{\"label\":\"crack\",\"bbox_2d\":[38,572,200,644]},{\"label\":\"crack\",\"bbox_2d\":[389,636,466,683]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00206",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[303,653,406,711]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00207",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[559,583,831,783]},{\"label\":\"pothole\",\"bbox_2d\":[600,653,669,706]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00208",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[439,583,831,803]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00209",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[444,661,544,733]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00210",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[697,583,881,689]},{\"label\":\"pothole\",\"bbox_2d\":[878,672,944,728]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00211",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[886,689,998,761]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00212",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[456,617,531,656]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00213",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[28,603,136,661]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-00214",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[806,733,909,792]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h07m43s774",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[619,592,717,672]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h07m46s200",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[381,417,631,633]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h07m47s847",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[431,383,659,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h07m50s137",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[381,483,659,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h07m53s515",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[381,456,600,731]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m03s358",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[205,567,359,750]},{\"label\":\"crack\",\"bbox_2d\":[450,578,589,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m05s215",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[555,522,616,567]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m06s820",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[598,589,681,644]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m09s147",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[319,436,514,517]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m10s837",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[289,478,348,567]},{\"label\":\"crack\",\"bbox_2d\":[406,489,459,567]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m14s528",
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[239,572,328,753]},{\"label\":\"crack\",\"bbox_2d\":[381,589,620,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m17s021",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[400,367,469,467]},{\"label\":\"crack\",\"bbox_2d\":[400,472,456,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m18s609",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[400,383,481,511]},{\"label\":\"crack\",\"bbox_2d\":[409,517,478,742]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m20s084",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[431,406,509,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m22s176",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[444,444,550,761]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m23s671",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[456,472,544,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m25s146",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[459,506,544,772]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h08m26s545",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[481,561,550,778]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h09m10s209",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[609,544,719,606]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h09m12s073",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[631,611,769,692]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h09m22s021",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[456,572,509,717]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h10m39s932",
+    "tp": 0,
+    "fp": 5,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[398,383,481,497]},{\"label\":\"crack\",\"bbox_2d\":[68,456,169,556]},{\"label\":\"crack\",\"bbox_2d\":[723,461,809,561]},{\"label\":\"manhole\",\"bbox_2d\":[0,603,97,683]},{\"label\":\"pothole\",\"bbox_2d\":[598,589,669,653]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h10m44s955",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[306,489,534,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h10m46s503",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[23,503,117,553]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h10m48s405",
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[398,472,481,772]},{\"label\":\"manhole\",\"bbox_2d\":[628,519,723,578]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h10m50s063",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[461,586,598,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h10m51s700",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[569,483,697,672]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h11m19s862",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[464,483,531,522]},{\"label\":\"manhole\",\"bbox_2d\":[75,494,144,531]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h11m28s079",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[473,589,569,644]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h11m30s125",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[484,661,603,742]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h11m35s391",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[491,728,631,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m00s565",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[83,506,173,553]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m17s725",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[459,544,528,606]},{\"label\":\"pothole\",\"bbox_2d\":[631,544,681,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m19s305",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[489,622,578,678]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m22s604",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[434,450,481,492]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m24s456",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[469,544,544,603]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m28s438",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[453,531,528,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m32s786",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[484,567,556,611]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m34s847",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[544,689,661,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m38s248",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[481,592,597,683]},{\"label\":\"crack\",\"bbox_2d\":[59,597,198,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h12m43s353",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[531,628,639,697]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m19s883",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[523,603,689,683]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m23s116",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[520,606,597,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m28s466",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[53,583,169,644]},{\"label\":\"pothole\",\"bbox_2d\":[536,603,617,661]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m29s907",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[581,672,669,744]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m36s544",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[428,567,631,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m40s766",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[28,472,117,531]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m44s442",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[97,544,200,603]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m48s064",
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[231,511,331,561]},{\"label\":\"pothole\",\"bbox_2d\":[570,536,631,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m50s113",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[128,633,278,700]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m52s540",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[183,536,294,589]},{\"label\":\"manhole\",\"bbox_2d\":[609,561,697,608]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m55s630",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[120,586,256,653]},{\"label\":\"manhole\",\"bbox_2d\":[631,611,750,672]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m56s767",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[28,661,200,742]},{\"label\":\"manhole\",\"bbox_2d\":[661,681,800,761]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m59s036",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[811,556,900,617]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m03s217",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[833,622,950,692]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m04s766",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[878,697,1000,783]},{\"label\":\"manhole\",\"bbox_2d\":[44,592,194,661]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m08s861",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[181,472,281,519]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m11s752",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[39,556,181,622]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m17s752",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[56,553,217,622]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m21s092",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[19,572,198,653]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m22s569",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[711,631,823,703]},{\"label\":\"manhole\",\"bbox_2d\":[11,633,173,706]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m25s029",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[239,444,309,489]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m26s836",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[205,492,291,528]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m28s474",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[159,544,281,603]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m30s019",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[94,617,256,692]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m34s881",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[219,461,306,506]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m36s043",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[194,492,294,536]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h14m37s362",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[144,553,273,617]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m04s500",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[441,439,506,483]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m06s511",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[581,483,678,533]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m08s254",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[728,522,831,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m19s090",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[431,517,556,583]},{\"label\":\"pothole\",\"bbox_2d\":[123,561,181,606]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m21s364",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[453,611,639,717]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m27s988",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[19,497,100,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m29s560",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[448,553,550,606]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m30s977",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[419,617,553,683]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m32s531",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[398,672,556,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m35s771",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[653,536,744,589]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m37s152",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[744,494,831,544]},{\"label\":\"manhole\",\"bbox_2d\":[673,594,773,661]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m38s268",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[766,517,869,578]},{\"label\":\"manhole\",\"bbox_2d\":[706,636,809,722]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m43s091",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[466,511,556,567]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m44s701",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[491,583,619,656]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m45s809",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[531,653,681,753]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m48s025",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[473,533,539,578]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m49s227",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[489,583,569,633]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m51s021",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[514,633,619,703]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m53s485",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[503,569,620,653]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m54s469",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[531,631,669,711]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m56s312",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[478,494,556,542]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h15m57s983",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[519,569,636,633]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m05s272",
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[463,483,548,533]},{\"label\":\"pothole\",\"bbox_2d\":[466,486,547,533]},{\"label\":\"pothole\",\"bbox_2d\":[566,586,631,642]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m18s522",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[494,561,581,617]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m37s804",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[378,417,444,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m39s382",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[366,436,444,631]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m40s869",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[359,444,444,672]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m43s156",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[284,553,328,772]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m46s019",
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[369,467,494,542]},{\"label\":\"crack\",\"bbox_2d\":[556,472,634,550]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m47s802",
+    "tp": 2,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[569,444,639,511]},{\"label\":\"crack\",\"bbox_2d\":[331,503,461,583]},{\"label\":\"crack\",\"bbox_2d\":[539,594,628,650]},{\"label\":\"pothole\",\"bbox_2d\":[700,619,789,706]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m49s457",
+    "tp": 0,
+    "fp": 3,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[428,467,631,633]},{\"label\":\"crack\",\"bbox_2d\":[244,550,431,667]},{\"label\":\"pothole\",\"bbox_2d\":[544,483,623,553]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m51s863",
+    "tp": 1,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[484,506,616,622]},{\"label\":\"crack\",\"bbox_2d\":[194,633,359,756]},{\"label\":\"crack\",\"bbox_2d\":[484,656,581,778]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h16m54s498",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[381,583,559,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h18m23s887",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[398,444,586,506]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h18m26s133",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[269,422,544,533]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h18m27s262",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[169,517,497,661]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h18m28s528",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[2,586,431,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h18m34s130",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[194,536,520,683]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h18m48s132",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[419,356,581,417]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h23m26s734",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[161,583,252,631]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h23m36s299",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[519,653,644,717]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h23m37s538",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[491,717,650,833]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h23m55s225",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[119,672,264,733]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h23m56s608",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[2,722,184,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m01s127",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[573,628,697,692]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m02s649",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[569,653,706,731]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m03s729",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[569,706,723,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m20s251",
+    "tp": 0,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[300,556,850,867]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m22s979",
+    "tp": 1,
+    "fp": 3,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[556,544,619,606]},{\"label\":\"crack\",\"bbox_2d\":[723,586,784,678]},{\"label\":\"crack\",\"bbox_2d\":[228,683,431,853]},{\"label\":\"crack\",\"bbox_2d\":[723,694,791,844]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m25s826",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[520,567,744,844]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m29s314",
+    "tp": 1,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[400,611,600,753]},{\"label\":\"crack\",\"bbox_2d\":[600,633,736,856]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m30s869",
+    "tp": 1,
+    "fp": 3,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[369,583,423,656]},{\"label\":\"crack\",\"bbox_2d\":[381,636,609,817]},{\"label\":\"crack\",\"bbox_2d\":[573,603,631,656]},{\"label\":\"crack\",\"bbox_2d\":[589,656,717,856]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m32s147",
+    "tp": 1,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[356,636,681,861]},{\"label\":\"crack\",\"bbox_2d\":[356,583,481,644]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m34s484",
+    "tp": 0,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[281,500,598,844]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m36s429",
+    "tp": 1,
+    "fp": 2,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[450,483,519,553]},{\"label\":\"crack\",\"bbox_2d\":[531,553,603,817]},{\"label\":\"crack\",\"bbox_2d\":[228,561,359,856]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m37s734",
+    "tp": 0,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[400,483,609,844]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m39s634",
+    "tp": 3,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[450,483,519,553]},{\"label\":\"crack\",\"bbox_2d\":[531,561,589,722]},{\"label\":\"crack\",\"bbox_2d\":[181,683,309,822]},{\"label\":\"crack\",\"bbox_2d\":[494,728,631,861]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m41s570",
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[450,489,500,606]},{\"label\":\"crack\",\"bbox_2d\":[520,597,600,836]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m45s051",
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[448,503,519,683]},{\"label\":\"crack\",\"bbox_2d\":[519,683,600,856]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m47s512",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[400,536,523,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m49s466",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[359,553,484,844]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m52s324",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[336,567,478,842]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m54s277",
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[320,586,450,683]},{\"label\":\"crack\",\"bbox_2d\":[309,689,398,856]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h24m58s564",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[209,667,400,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m00s029",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[169,683,384,833]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m01s474",
+    "tp": 1,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[228,583,334,656]},{\"label\":\"crack\",\"bbox_2d\":[231,736,336,856]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m03s376",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[156,600,359,753]},{\"label\":\"crack\",\"bbox_2d\":[373,731,631,836]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m05s324",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[217,622,381,767]},{\"label\":\"pothole\",\"bbox_2d\":[128,767,259,842]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m07s507",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[217,683,400,836]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m13s140",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[728,586,859,797]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m14s922",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[769,617,969,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m16s322",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[781,636,994,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m43s507",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[386,636,597,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m44s561",
+    "tp": 1,
+    "fp": 0,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[386,656,609,844]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m45s670",
+    "tp": 1,
+    "fp": 0,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[381,683,550,853]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m47s192",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[573,736,720,833]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m48s850",
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[250,636,320,697]},{\"label\":\"crack\",\"bbox_2d\":[698,636,836,742]},{\"label\":\"crack\",\"bbox_2d\":[898,733,1000,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h25m50s501",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[65,606,231,800]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h26m05s423",
+    "tp": 1,
+    "fp": 6,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[423,503,481,583]},{\"label\":\"crack\",\"bbox_2d\":[473,531,619,628]},{\"label\":\"crack\",\"bbox_2d\":[539,633,609,717]},{\"label\":\"crack\",\"bbox_2d\":[648,642,717,733]},{\"label\":\"crack\",\"bbox_2d\":[541,736,584,822]},{\"label\":\"crack\",\"bbox_2d\":[669,739,781,806]},{\"label\":\"crack\",\"bbox_2d\":[281,744,359,833]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h26m42s214",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[461,536,500,803]},{\"label\":\"crack\",\"bbox_2d\":[500,542,573,683]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h26m46s628",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[436,517,491,806]},{\"label\":\"pothole\",\"bbox_2d\":[678,656,753,722]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m05s418",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[603,669,744,744]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m15s316",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[509,606,569,753]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m22s780",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[0,583,203,756]},{\"label\":\"manhole\",\"bbox_2d\":[269,644,403,711]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m31s572",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[414,497,494,536]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m33s135",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[428,531,523,583]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m36s819",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[466,644,631,744]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m41s807",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[723,644,909,722]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m47s699",
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[456,511,569,572]},{\"label\":\"pothole\",\"bbox_2d\":[598,489,684,536]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m49s136",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[469,589,611,672]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m50s279",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[484,653,650,753]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m51s328",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[700,583,997,750]},{\"label\":\"manhole\",\"bbox_2d\":[444,706,669,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h27m57s460",
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[494,617,600,756]},{\"label\":\"crack\",\"bbox_2d\":[644,619,784,706]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m02s296",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[523,603,656,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m16s517",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[598,517,684,561]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m21s081",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[644,622,798,703]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m28s645",
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[17,536,303,633]},{\"label\":\"crack\",\"bbox_2d\":[220,583,459,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m31s267",
+    "tp": 0,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[228,483,583,644]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m32s534",
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[544,503,631,750]},{\"label\":\"crack\",\"bbox_2d\":[100,508,409,797]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m35s937",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[500,450,616,744]},{\"label\":\"crack\",\"bbox_2d\":[81,483,381,786]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m37s345",
+    "tp": 1,
+    "fp": 2,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[378,461,481,506]},{\"label\":\"crack\",\"bbox_2d\":[456,472,573,753]},{\"label\":\"crack\",\"bbox_2d\":[109,506,373,786]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m38s634",
+    "tp": 0,
+    "fp": 1,
+    "fn": 5,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[117,489,556,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m40s708",
+    "tp": 2,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[309,517,444,583]},{\"label\":\"crack\",\"bbox_2d\":[498,533,559,756]},{\"label\":\"crack\",\"bbox_2d\":[81,553,350,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m42s438",
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[100,567,439,792]},{\"label\":\"crack\",\"bbox_2d\":[500,583,600,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m43s566",
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[10,500,444,783]},{\"label\":\"pothole\",\"bbox_2d\":[150,644,398,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m46s078",
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[473,483,556,658]},{\"label\":\"crack\",\"bbox_2d\":[305,583,384,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m48s152",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[459,528,598,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m49s924",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[120,567,681,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m51s077",
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[356,483,444,658]},{\"label\":\"crack\",\"bbox_2d\":[359,658,684,767]},{\"label\":\"pothole\",\"bbox_2d\":[244,667,336,717]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h28m55s133",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[400,561,731,733]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m04s331",
+    "tp": 2,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[178,536,244,636]},{\"label\":\"crack\",\"bbox_2d\":[303,542,378,772]},{\"label\":\"crack\",\"bbox_2d\":[614,567,720,731]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m05s904",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[169,456,244,656]},{\"label\":\"crack\",\"bbox_2d\":[628,606,731,742]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m07s392",
+    "tp": 0,
+    "fp": 2,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[581,536,769,644]},{\"label\":\"crack\",\"bbox_2d\":[100,542,244,778]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m08s868",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[83,467,300,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m10s496",
+    "tp": 0,
+    "fp": 2,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[136,483,370,778]},{\"label\":\"crack\",\"bbox_2d\":[569,583,639,744]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m11s728",
+    "tp": 0,
+    "fp": 2,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[120,483,320,783]},{\"label\":\"crack\",\"bbox_2d\":[359,606,409,778]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m13s023",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[117,500,784,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m14s617",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[250,553,378,772]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m17s065",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[281,636,378,772]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m34s346",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[606,597,741,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h29m48s551",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[369,583,697,772]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m06s450",
+    "tp": 1,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[619,569,719,653]},{\"label\":\"manhole\",\"bbox_2d\":[623,572,717,653]},{\"label\":\"crack\",\"bbox_2d\":[759,583,839,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m06s580",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[653,628,773,722]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m21s944",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[398,503,700,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m22s178",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[431,506,750,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m22s402",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[331,489,784,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m22s632",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[300,489,750,753]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m22s862",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[331,528,750,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m23s092",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[181,544,784,797]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m24s442",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[11,561,598,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m25s298",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[169,556,494,783]},{\"label\":\"pothole\",\"bbox_2d\":[359,569,473,633]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m25s629",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[356,722,520,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m26s420",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[250,456,544,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m28s299",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[239,417,661,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m28s596",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[228,433,534,644]},{\"label\":\"crack\",\"bbox_2d\":[481,567,631,753]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m28s793",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[239,444,534,656]},{\"label\":\"pothole\",\"bbox_2d\":[250,544,428,636]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m28s990",
+    "tp": 1,
+    "fp": 1,
+    "fn": 6,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[228,456,559,633]},{\"label\":\"crack\",\"bbox_2d\":[431,561,717,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m29s192",
+    "tp": 2,
+    "fp": 2,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[220,483,669,778]},{\"label\":\"pothole\",\"bbox_2d\":[481,489,556,533]},{\"label\":\"pothole\",\"bbox_2d\":[444,542,523,622]},{\"label\":\"pothole\",\"bbox_2d\":[456,625,509,706]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m29s418",
+    "tp": 1,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[170,483,678,756]},{\"label\":\"pothole\",\"bbox_2d\":[444,456,494,489]},{\"label\":\"pothole\",\"bbox_2d\":[500,533,594,586]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m29s649",
+    "tp": 1,
+    "fp": 4,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[239,483,381,617]},{\"label\":\"crack\",\"bbox_2d\":[244,617,500,756]},{\"label\":\"manhole\",\"bbox_2d\":[428,472,494,506]},{\"label\":\"manhole\",\"bbox_2d\":[597,475,711,517]},{\"label\":\"manhole\",\"bbox_2d\":[484,603,616,661]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m33s376",
+    "tp": 1,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[198,517,669,778]},{\"label\":\"pothole\",\"bbox_2d\":[516,444,566,483]},{\"label\":\"pothole\",\"bbox_2d\":[309,553,381,633]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m33s636",
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[217,492,723,783]},{\"label\":\"pothole\",\"bbox_2d\":[294,589,344,636]},{\"label\":\"pothole\",\"bbox_2d\":[231,692,369,772]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m33s871",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[539,478,619,536]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m34s065",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[261,556,784,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m34s296",
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[200,553,500,783]},{\"label\":\"pothole\",\"bbox_2d\":[581,556,697,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h00m19s245",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[428,636,523,689]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h00m20s882",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[453,683,570,761]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h01m20s988",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[423,586,469,622]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h01m22s346",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[450,669,520,728]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h01m36s808",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[356,517,444,722]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h01m38s740",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[359,572,478,803]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h02m53s135",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[281,567,609,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h02m54s622",
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[309,617,531,817]},{\"label\":\"pothole\",\"bbox_2d\":[409,644,509,728]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h02m57s019",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[439,606,581,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m02s980",
+    "tp": 2,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[370,556,494,633]},{\"label\":\"crack\",\"bbox_2d\":[400,633,500,756]},{\"label\":\"pothole\",\"bbox_2d\":[419,656,494,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m06s413",
+    "tp": 0,
+    "fp": 2,
+    "fn": 5,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[184,583,344,708]},{\"label\":\"crack\",\"bbox_2d\":[189,717,336,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m22s057",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[181,606,409,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m26s014",
+    "tp": 1,
+    "fp": 1,
+    "fn": 5,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[278,622,419,708]},{\"label\":\"crack\",\"bbox_2d\":[478,636,644,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m28s017",
+    "tp": 1,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[403,617,450,656]},{\"label\":\"pothole\",\"bbox_2d\":[481,619,544,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m29s526",
+    "tp": 0,
+    "fp": 4,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[369,583,434,661]},{\"label\":\"crack\",\"bbox_2d\":[478,628,569,756]},{\"label\":\"crack\",\"bbox_2d\":[481,722,644,817]},{\"label\":\"crack\",\"bbox_2d\":[209,733,394,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m31s261",
+    "tp": 1,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[336,592,409,644]},{\"label\":\"pothole\",\"bbox_2d\":[250,667,344,722]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m34s523",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[159,553,559,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m42s580",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[200,633,273,694]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m45s777",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[220,583,431,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m47s237",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[284,542,428,736]},{\"label\":\"crack\",\"bbox_2d\":[131,617,339,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m49s630",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[200,583,300,672]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m50s926",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[228,567,381,656]},{\"label\":\"crack\",\"bbox_2d\":[281,656,409,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m10s260",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[11,572,100,622]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m13s313",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[19,603,106,644]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m41s282",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[344,567,397,606]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m44s457",
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[306,644,391,753]},{\"label\":\"crack\",\"bbox_2d\":[423,653,466,753]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m47s362",
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[373,619,428,669]},{\"label\":\"pothole\",\"bbox_2d\":[431,628,497,689]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m49s140",
+    "tp": 3,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[341,656,403,711]},{\"label\":\"pothole\",\"bbox_2d\":[416,661,494,731]},{\"label\":\"pothole\",\"bbox_2d\":[403,722,481,792]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m53s778",
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[309,622,397,672]},{\"label\":\"manhole\",\"bbox_2d\":[144,683,264,744]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m55s842",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[309,628,394,778]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m58s334",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[414,697,472,761]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h04m59s792",
+    "tp": 1,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[231,583,286,631]},{\"label\":\"pothole\",\"bbox_2d\":[156,658,248,717]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m06s690",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[223,653,291,692]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m08s806",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[294,636,383,722]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m14s947",
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[131,533,231,572]},{\"label\":\"crack\",\"bbox_2d\":[0,583,159,728]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m16s653",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[117,628,309,711]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m21s882",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[319,597,381,633]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m28s575",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[219,583,273,617]},{\"label\":\"pothole\",\"bbox_2d\":[469,672,584,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m37s430",
+    "tp": 1,
+    "fp": 0,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[431,589,484,633]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m39s299",
+    "tp": 1,
+    "fp": 3,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[344,583,528,658]},{\"label\":\"crack\",\"bbox_2d\":[344,683,494,783]},{\"label\":\"pothole\",\"bbox_2d\":[464,633,519,667]},{\"label\":\"pothole\",\"bbox_2d\":[520,667,566,694]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m46s478",
+    "tp": 2,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[270,553,419,728]},{\"label\":\"crack\",\"bbox_2d\":[44,611,194,717]},{\"label\":\"manhole\",\"bbox_2d\":[469,644,539,697]},{\"label\":\"manhole\",\"bbox_2d\":[631,703,747,767]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m48s629",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[278,653,359,717]},{\"label\":\"crack\",\"bbox_2d\":[359,689,494,742]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m50s087",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[150,667,250,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h05m51s656",
+    "tp": 2,
+    "fp": 1,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[239,556,444,817]},{\"label\":\"pothole\",\"bbox_2d\":[298,667,403,767]},{\"label\":\"manhole\",\"bbox_2d\":[628,706,716,761]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h06m04s020",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[481,636,541,667]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h06m11s315",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[261,653,336,694]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m23s745",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[100,556,428,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m28s062",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[350,553,459,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m39s461",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[498,636,573,822]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m40s964",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[359,567,631,817]},{\"label\":\"pothole\",\"bbox_2d\":[398,622,598,742]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m42s915",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[420,633,594,753]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m53s830",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[136,583,550,817]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m58s373",
+    "tp": 1,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[431,553,544,633]},{\"label\":\"crack\",\"bbox_2d\":[498,717,581,800]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h08m59s876",
+    "tp": 1,
+    "fp": 3,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[405,617,600,722]},{\"label\":\"crack\",\"bbox_2d\":[0,619,247,750]},{\"label\":\"pothole\",\"bbox_2d\":[405,622,600,722]},{\"label\":\"pothole\",\"bbox_2d\":[405,736,500,803]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m09s086",
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[100,567,331,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m12s076",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[10,556,269,756]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m21s575",
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[269,461,348,583]},{\"label\":\"crack\",\"bbox_2d\":[300,500,500,822]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m23s556",
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[269,567,381,667]},{\"label\":\"crack\",\"bbox_2d\":[269,667,336,728]},{\"label\":\"crack\",\"bbox_2d\":[336,669,409,750]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m25s147",
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[189,553,417,806]},{\"label\":\"crack\",\"bbox_2d\":[400,606,609,822]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m28s277",
+    "tp": 0,
+    "fp": 1,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[181,536,569,836]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m29s678",
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[189,572,331,736]},{\"label\":\"crack\",\"bbox_2d\":[331,600,550,836]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m31s964",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[120,556,544,853]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m33s751",
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[181,583,459,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m37s477",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[381,536,500,761]},{\"label\":\"crack\",\"bbox_2d\":[189,553,331,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m39s506",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[172,556,519,833]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m41s152",
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[100,583,381,831]},{\"label\":\"crack\",\"bbox_2d\":[423,617,550,783]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m46s359",
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[200,567,398,708]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m47s565",
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[250,567,350,736]},{\"label\":\"crack\",\"bbox_2d\":[156,617,259,756]},{\"label\":\"crack\",\"bbox_2d\":[36,636,131,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m51s548",
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[136,583,298,761]},{\"label\":\"crack\",\"bbox_2d\":[309,617,384,806]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h09m54s893",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[169,583,300,750]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h10m02s041",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[198,583,444,836]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h10m39s739",
+    "tp": 0,
+    "fp": 3,
+    "fn": 2,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[328,583,494,744]},{\"label\":\"pothole\",\"bbox_2d\":[144,597,223,644]},{\"label\":\"crack\",\"bbox_2d\":[67,622,123,686]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h11m25s058",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[373,597,466,653]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h13m27s267",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[489,628,581,678]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h13m51s627",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[350,653,531,744]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h14m06s154",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[481,667,636,717]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h14m07s722",
+    "tp": 0,
+    "fp": 1,
+    "fn": 3,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[228,606,359,736]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h14m10s304",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[281,644,344,694]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h14m23s060",
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[356,597,444,656]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h14m33s249",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[378,603,466,653]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h14m36s486",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[311,608,400,656]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h14m56s176",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[389,606,498,672]}]",
+    "hit_token_limit": false
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h16m03s525",
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"pothole\",\"bbox_2d\":[294,628,341,667]}]",
+    "hit_token_limit": false
+  }
+]

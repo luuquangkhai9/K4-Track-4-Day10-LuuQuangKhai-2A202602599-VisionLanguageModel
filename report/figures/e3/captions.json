@@ -1,0 +1,68 @@
+[
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m52s540",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[183,536,294,589]},{\"label\":\"manhole\",\"bbox_2d\":[609,561,697,608]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e3/1_vlcsnap-2025-02-18-23h13m52s540.png",
+    "caption": "E3 TP=2 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m55s630",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[120,586,256,653]},{\"label\":\"manhole\",\"bbox_2d\":[631,611,750,672]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e3/2_vlcsnap-2025-02-18-23h13m55s630.png",
+    "caption": "E3 TP=2 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h13m56s767",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"manhole\",\"bbox_2d\":[28,661,200,742]},{\"label\":\"manhole\",\"bbox_2d\":[661,681,800,761]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e3/3_vlcsnap-2025-02-18-23h13m56s767.png",
+    "caption": "E3 TP=2 FP=0 FN=0 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h26m05s423",
+    "tp": 1,
+    "fp": 6,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[423,503,481,583]},{\"label\":\"crack\",\"bbox_2d\":[473,531,619,628]},{\"label\":\"crack\",\"bbox_2d\":[539,633,609,717]},{\"label\":\"crack\",\"bbox_2d\":[648,642,717,733]},{\"label\":\"crack\",\"bbox_2d\":[541,736,584,822]},{\"label\":\"crack\",\"bbox_2d\":[669,739,781,806]},{\"label\":\"crack\",\"bbox_2d\":[281,744,359,833]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e3/4_vlcsnap-2025-02-18-23h26m05s423.png",
+    "caption": "E3 TP=1 FP=6 FN=4 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-19-17h03m29s526",
+    "tp": 0,
+    "fp": 4,
+    "fn": 4,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[369,583,434,661]},{\"label\":\"crack\",\"bbox_2d\":[478,628,569,756]},{\"label\":\"crack\",\"bbox_2d\":[481,722,644,817]},{\"label\":\"crack\",\"bbox_2d\":[209,733,394,817]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e3/5_vlcsnap-2025-02-19-17h03m29s526.png",
+    "caption": "E3 TP=0 FP=4 FN=4 valid=True"
+  },
+  {
+    "image_id": "vlcsnap-2025-02-18-23h30m28s990",
+    "tp": 1,
+    "fp": 1,
+    "fn": 6,
+    "parse_valid": true,
+    "raw": "[{\"label\":\"crack\",\"bbox_2d\":[228,456,559,633]},{\"label\":\"crack\",\"bbox_2d\":[431,561,717,756]}]",
+    "hit_token_limit": false,
+    "figure": "report/figures/e3/6_vlcsnap-2025-02-18-23h30m28s990.png",
+    "caption": "E3 TP=1 FP=1 FN=6 valid=True"
+  }
+]

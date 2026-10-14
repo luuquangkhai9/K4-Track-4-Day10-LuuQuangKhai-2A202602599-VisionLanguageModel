@@ -1,0 +1,9 @@
+# Keep Kaggle's existing CUDA torch/torchvision; the notebook constrains them.
+transformers==5.19.0
+peft==0.21.2
+accelerate==1.15.0
+bitsandbytes==0.50.2
+pyyaml
+pillow
+pytest
+huggingface-hub

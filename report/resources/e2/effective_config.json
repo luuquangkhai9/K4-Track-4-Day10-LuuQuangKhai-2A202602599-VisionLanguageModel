@@ -1,0 +1,18 @@
+{
+  "name": "e2",
+  "setup": "e2",
+  "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "seed": 42,
+  "rank": 16,
+  "lr": 0.0002,
+  "max_steps": 300,
+  "batch_size": 1,
+  "grad_accum": 8,
+  "max_new_tokens": 512,
+  "inference_batch_size": 2,
+  "train_fraction": 1.0,
+  "prompt": "Detect all road damage: pothole, crack, and manhole. Return ONLY a JSON list of objects with keys \"label\" and \"bbox_2d\". bbox_2d is [x1,y1,x2,y2], integer coordinates normalized to 0-1000 independently for image width and height. Use only these three labels. Return [] if there are no objects. No explanations.",
+  "dataset_version": "d10-21e4070301",
+  "code_sha256": "278000b8051125fc9e40407e9fb259a22d5bc51c4abc96d7cebfc06ed16667c5"
+}
