@@ -41,7 +41,15 @@ chỉ FAIL `git commits — 1/5`. Tất cả kiểm tra evidence, meta, dataset,
 file bị cấm đều PASS. Lịch sử Git chưa được thay đổi bởi bước phân tích này.
 
 `report/submission_check.txt` là snapshot gốc từ Kaggle, trước khi viết báo cáo;
-kết quả kiểm tra local mới nằm ở `report/analysis/submission_check_local.txt`.
+`report/analysis/submission_check_local.txt` là snapshot local khi phân tích E5.
+Các snapshot giữ trạng thái Git tại thời điểm ghi log, không phản ánh các commit
+được tạo sau đó. Kiểm tra trạng thái bài nộp hiện tại bằng:
+
+```bash
+python scripts/check_submission.py
+git rev-list --count HEAD
+git status --short
+```
 
 ## Tái tạo phân tích
 
@@ -86,6 +94,6 @@ Lượt kiểm tra sau khi bổ sung E5:
 python -m pytest -q tests e5_checks local_checks -k 'not report_template_has_student_markers_and_ten_questions'
 ```
 
-Kết quả: **95 passed, 3 skipped, 1 deselected**. Kiểm tra bài nộp hiện còn
+Kết quả: **95 passed, 3 skipped, 1 deselected**. Tại lượt kiểm tra E5 đó còn
 **1 FAIL, 0 WARN**, chỉ `git commits — 2/5`; các mục kết quả và báo cáo đều PASS.
 Checker gốc không có mục bonus E5, nên các đối chiếu bổ sung ở trên kiểm tra riêng E5.
